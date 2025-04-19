@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>ELNTECH - Ecommerce Website design</title>
+    <script type="module" crossorigin src="/assets/main-DXho13bm.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-BMtHSojS.css">
+  </head>
+  <body>
+  <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar border-b-darkBlue border-b-4">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto">
+       <!-- LOGO -->
+       <div class=" logo pt-0">
+           <a href="/">
+               <img src="images/audi-1.svg" alt="Shannon Logo" width="400" height="200">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand is-active lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center lg:gap-24 md:gap-12 ml-auto mr-10 uppercase font-poppins-light text-darkBlue text-xl">
+      <ul class="flex space-x-16">
+        <li class="menu-items hover:text-green"><a href="/about.html">About</a></li>
+        <li class="menu-items hover:text-green"><a href="/website-design.html">WebDesign</a></li>
+        <li class="menu-items hover:text-green"><a href="/services.html">Services</a></li>
+        <li class="menu-items hover:text-green"><a href="/wordpress-development.html">WordPress Development</a></li>
+        <li class="menu-items hover:text-green"><a href="/ecommerce-website-design.html">Ecommerce website design</a></li>
+        <li class="menu-items hover:text-green"><a href="/#articles">Articles</a></li>
+        <li class="menu-items hover:text-green"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+    <div id="mobile_menu" class="w-full space-y-20 uppercase font-semibold font-poppins-light text-lg z-10 text-white text-left py-6 bg-darkBlue top-20 lg:hidden">
+     <ul class="space-y-8">
+      <li class="menu-items"><a href="/about.html">About</a></li>
+        <li class="menu-items"><a href="/website-design.html">WebDesign</a></li>
+        <li class="menu-items"><a href="/services.html">Services</a></li>
+        <li class="menu-items"><a href="/wordpress-development.html">WordPress Development</a></li>
+        <li class="menu-items hover:text-green"><a href="/ecommerce-website-design.html">Ecommerce website design</a></li>
+        <li class="menu-items"><a href="/#articles">Articles</a></li>
+        <li class="menu-items"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+ 
+<!-- WP Banner -->
+<section class="wordpress-banner-section">
+  <div class="wordpress-banner relative">
+    <picture>
+      <!-- Use the same image and adjust the height at different breakpoints -->
+      <img src="images/online-shop.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+    </picture>
+    <!-- Darker Overlay Background -->
+    <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+    <!-- Text Content -->
+    <!--   <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold">Create a Seamless Shopping Experience <br>with Our Ecommerce Services</h1>
+        <button class="sharedButton web-button my-6">GET IN TOUCH</button>
+      </div> -->
+  </div>
+</section>
+
+ <!-- ECOMMERCE INTRO SECTION -->
+<section class="ecommerce-section py-8 bg-gray-200">
+  <div class="w-[98%] mx-auto">
+    <div class="ecommerce-title">
+      <h2 class="text-darkBlue text-center text-5xl pb-4">Empower Your Online Business <br>with Tailored Ecommerce Solutions</h2>
+    </div>
+    <div class="ecommerce-text px-12">
+      <p class="text-darkBlue text-base">At ELNTECH, we specialize in creating powerful e-commerce websites designed to help you succeed in the fast-paced online marketplace. Whether you're starting a new online store or looking to enhance an existing one, we provide scalable and user-friendly solutions that cater to your unique business needs.
+
+        Our e-commerce websites are built to deliver an outstanding user experience while driving conversions. From product page design to integrated payment solutions and inventory management, we ensure your store operates efficiently. With mobile-responsive layouts and an intuitive backend, you can easily manage your products, track sales, and grow your business.
+        
+        Let us help you build an online store that not only attracts customers but also drives success and growth.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ECOMMERCE WITH ONE GOAL -->
+<section class="company-overview py-16 bg-gray-100">
+  <div class="w-[98%] mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-12">
+      <div class="company-image">
+        <img src="images/ecommerce.svg" alt="Company History">
+      </div>
+      <div class="company-content flex items-center">
+        <div class="company-title">
+          <h2 class="text-4xl text-darkBlue font-semibold">Ecommerce website with one goal</h2>
+          <div class="company-text mt-4">
+            <p class="text-darkBlue pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum architecto iusto tempora commodi voluptatem sed alias. Eligendi totam ut itaque unde, repellendus placeat atque architecto provident minus hic laudantium accusantium, ex vel et. Odio, vitae maxime? Velit et, necessitatibus, ratione quo illum explicabo expedita, pariatur perferendis odit nemo eos. Iusto labore illum, beatae est eius, quae vitae fugiat cumque tempora quo veniam esse debitis excepturi commodi eum perferendis ducimus ad minus facere numquam quis impedit? Corporis provident possimus similique rem, unde omnis voluptas dolorum, vero vitae ratione veniam mollitia modi eaque odio commodi accusamus maxime itaque quo saepe repellendus. Culpa.</p>
+            <button class="full-rounded ecommerce-button">
+              <span>Get a Quote</span>
+              <div class="border full-rounded"></div></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALISE IN WOOCOMMERCE PLATFORM -->
+<section class="company-overview py-16 bg-gray-200">
+  <div class="w-[98%] mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-12">
+      <div class="company-content flex items-center">
+        <div class="company-title">
+          <h2 class="text-4xl text-darkBlue font-semibold">Choose WooCommerce, the robust eCommerce platform designed to power your online store.</h2>
+          <div class="company-text mt-4">
+            <p class="text-darkBlue pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum architecto iusto tempora commodi voluptatem sed alias. Eligendi totam ut itaque unde, repellendus placeat atque architecto provident minus hic laudantium accusantium, ex vel et. Odio, vitae maxime? Velit et, necessitatibus, ratione quo illum explicabo expedita, pariatur perferendis odit nemo eos. Iusto labore illum, beatae est eius, quae vitae fugiat cumque tempora quo veniam esse debitis excepturi commodi eum perferendis ducimus ad minus facere numquam quis impedit? Corporis provident possimus similique rem, unde omnis voluptas dolorum, vero vitae ratione veniam mollitia modi eaque odio commodi accusamus maxime itaque quo saepe repellendus. Culpa.</p>
+            <button class="full-rounded ecommerce-button">
+              <span>Get a Quote</span>
+              <div class="border full-rounded"></div></button>
+          </div>
+        </div>
+      </div>
+      <div class="company-image">
+        <img src="images/wp-woocommerce.png" alt="Company History">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ADVANCED FEATURES -->
+ <section class="features-section">
+  <div class="w-[98%] mx-auto px-12">
+    <div class="features-title">
+      <h2 class="text-5xl text-darkBlue py-16">Get all advanced features that will drive your ecommerce store to new heights</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 pb-10 justify-items-center px-10">
+      <!-- From Uiverse.io by gharsh11032000 --> 
+<div class="features-card">
+  <div class="features-content">
+   <img src="images/card-payment.svg" alt="email-hosting">
+    <h2 class="text-xl">Responsive design</h2>
+    <p class="para">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam
+      at voluptas minus culpa deserunt delectus sapiente inventore pariatur
+    </p>
+  </div>
+</div>
+      <!-- From Uiverse.io by gharsh11032000 --> 
+<div class="features-card">
+  <div class="features-content">
+    <img src="images/card-payment.svg" alt="email-hosting">
+    <h2 class="text-xl">Gateway payments</h2>
+    <p class="para">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam
+      at voluptas minus culpa deserunt delectus sapiente inventore pariatur
+    </p>
+  </div>
+</div>
+      <!-- From Uiverse.io by gharsh11032000 --> 
+<div class="features-card">
+  <div class="features-content">
+    <img src="images/card-payment.svg" alt="email-hosting">
+    <h2 class="text-xl">CMS</h2>
+    <p class="para">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam
+      at voluptas minus culpa deserunt delectus sapiente inventore pariatur
+    </p>
+  </div>
+</div>
+      <!-- From Uiverse.io by gharsh11032000 --> 
+<div class="features-card">
+  <div class="features-content">
+    <img src="images/card-payment.svg" alt="email-hosting">
+    <h2 class="text-xl">Abandoned cart recovery</h2>
+    <p class="para">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam
+      at voluptas minus culpa deserunt delectus sapiente inventore pariatur
+    </p>
+  </div>
+</div>
+      <!-- From Uiverse.io by gharsh11032000 --> 
+<div class="features-card">
+  <div class="features-content">
+    <img src="images/card-payment.svg" alt="email-hosting">
+    <h2 class="text-xl">Analytics implementation</h2>
+    <p class="para">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laboriosam
+      at voluptas minus culpa deserunt delectus sapiente inventore pariatur
+    </p>
+  </div>
+</div>
+
+    </div>
+  </div>
+ </section>
+
+ <!-- READY TO GET IN TOUCH -->
+  <section class="get-intouch bg-darkBlue py-20">
+    <div class="w-[98%] mx-auto">
+      <div class="get-intouch px-10">
+        <h2 class="text-white text-3xl">Ready to bring your website vision to life? Contact us today to get started!</h2>
+        <p class="text-xl text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad beatae, nihil totam earum eveniet. Earum minima dignissimos repellendus ullam temporibus quod quos harum ut quia. Quaerat odit eligendi officiis.</p>
+        <button class="btn">Contact Us Today</button>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-blue text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © Shannon 2024 | By <a href="https://powerof9.co.za" target="_blank" class="hover:underline">Power of 9</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+  </body>
+</html>

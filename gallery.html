@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>ELNTECH - Website Design</title>
+  </head>
+  <body>
+<!-- NAV BAR -->
+<section class="main-menu">
+    <nav class="navbar border-b-darkBlue border-b-4">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto">
+       <!-- LOGO -->
+       <div class=" logo pt-0">
+           <a href="/">
+               <img src="images/audi-1.svg" alt="Shannon Logo" width="400" height="200">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand is-active lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center lg:gap-24 md:gap-12 ml-auto mr-10 uppercase font-poppins-light text-darkBlue text-xl">
+      <ul class="flex space-x-16">
+        <li class="menu-items hover:text-green"><a href="/about.html">About</a></li>
+        <li class="menu-items hover:text-green"><a href="/website-design.html">WebDesign</a></li>
+        <li class="menu-items hover:text-green"><a href="/services.html">Services</a></li>
+        <li class="menu-items hover:text-green"><a href="/wordpress-development.html">WordPress Development</a></li>
+        <li class="menu-items hover:text-green"><a href="/ecommerce-website-design.html">Ecommerce website design</a></li>
+        <li class="menu-items hover:text-green"><a href="/#articles">Articles</a></li>
+        <li class="menu-items hover:text-green"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+    <div id="mobile_menu" class="w-full space-y-20 uppercase font-semibold font-poppins-light text-lg z-10 text-white text-left py-6 bg-darkBlue top-20 lg:hidden">
+     <ul class="space-y-8">
+      <li class="menu-items"><a href="/about.html">About</a></li>
+        <li class="menu-items"><a href="/website-design.html">WebDesign</a></li>
+        <li class="menu-items"><a href="/services.html">Services</a></li>
+        <li class="menu-items"><a href="/wordpress-development.html">WordPress Development</a></li>
+        <li class="menu-items hover:text-green"><a href="/ecommerce-website-design.html">Ecommerce website design</a></li>
+        <li class="menu-items"><a href="/#articles">Articles</a></li>
+        <li class="menu-items"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/website-design.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold">WordPress web design<br> and development services</h1>
+        <button class="sharedButton web-button my-6">Read More</button>
+      </div>
+    </div>
+  </section>
+  
+<!-- WEBSITE DESIGN -->
+<section class="web-section bg-gray-50">
+  <div class="w-[98%] mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 px-12 py-16">
+      <div class="services-content flex items-center">
+        <div class="services-title">
+          <div class="web-subheading">
+            <h3 class="text-2xl text-darkBlue pt-4">Website design tailored to meet your business needs.</h3>
+          </div>
+          <div class="web-text">
+            <p class="text-darkBlue py-3">At ELNTECH, we specialize in creating custom websites tailored to your unique business needs. Whether you need a stunning custom theme or a flexible, user-friendly WordPress website, we bring your vision to life with precision and creativity. Our expert team understands that each business is different, which is why we craft bespoke websites that align perfectly with your brand identity and business goals.
+
+                Our websites aren’t just beautiful—they’re responsive, easy to manage, and designed with the user experience in mind, ensuring they look great and perform flawlessly on any device. With custom themes built to enhance your brand and the option to integrate powerful page builders like Divi or Elementor, you’ll have full control to update content with ease.
+                
+                From the initial concept to ongoing support, we’re here to help you create a website that doesn’t just capture attention but also drives real results. Ready to make your online presence stand out? Let’s create a website that’s as unique as your business!</p>
+          </div>
+          <button class="websiteButton mt-3 text-darkBlue text-base font-poppins-regular"> Get A Qoute</button>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="images/website-banner.svg" alt="about image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MOBILE FRIENDLY -->
+<section class="web-section bg-darkBlue">
+    <div class="w-[98%] mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 px-12 py-16">
+        <div class="about-image order-2 md:order-1">
+            <img src="images/mobile-responsive.svg" alt="about image">
+          </div>
+        <div class="services-content flex items-center order-1 md:order-2">
+          <div class="services-title">
+            <div class="web-subheading">
+              <h3 class="text-2xl text-white pt-4">Mobile friendly and optimised for search engine.</h3>
+            </div>
+            <div class="web-text">
+              <p class="text-white py-3">At ELNTECH, we ensure that every website we design is fully mobile-friendly and optimized for an exceptional user experience across all devices. In today’s mobile-first world, it’s crucial that your website looks and works flawlessly whether it’s viewed on a smartphone, tablet, or desktop. We focus on creating responsive designs that automatically adjust to any screen size, providing seamless navigation and functionality. With our mobile-optimized websites, you can be confident that your visitors will have a smooth and engaging experience no matter how they access your site. Let’s build a website that works beautifully across all platforms!</p>
+            </div>
+            <button class="websiteButton webButton mt-3 text-darkBlue text-base font-poppins-regular"> Get A Qoute</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CMS MANAGE -->
+   <!-- WEBSITE DESIGN -->
+<section class="web-section bg-gray-50">
+    <div class="w-[98%] mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 px-12 py-16">
+        <div class="services-content flex items-center">
+          <div class="services-title">
+            <div class="web-subheading">
+              <h3 class="text-2xl text-darkBlue pt-4">Easy to manage website with powerful CMS</h3>
+            </div>
+            <div class="web-text">
+              <p class="text-darkBlue py-3">Get a custom WordPress website designed specifically to fit your brand, with the ability to easily populate your own content. No technical skills required! Whether you love the flexibility of Divi or Elementor, we’ve got you covered with powerful page builders that make managing your site a breeze.
+                With a user-friendly CMS, you’ll have complete control to update, edit, and manage your site with ease – no headaches, no hassle.
+                Ready to take control of your online presence? Let’s create a stunning website that’s as unique as your business! </p>
+            </div>
+            <button class="websiteButton mt-3 text-darkBlue text-base font-poppins-regular"> Get A Qoute</button>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="images/cms-website.svg" alt="about image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- USER FRIENDLY SECTION -->
+  <section class="user-friendly">
+    <div class="w-[98%] mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 px-12 py-16">
+    <div class="about-image order-2 md:order-1">
+        <img src="images/user-friendly.svg" alt="about image">
+      </div>
+    <div class="services-content flex items-center order-1 md:order-2">
+      <div class="services-title">
+        <div class="web-subheading">
+          <h3 class="text-2xl text-darkBlue pt-4">User friendly websites that drives conversion</h3>
+        </div>
+        <div class="web-text">
+          <p class="text-darkBlue py-3">At ELNTECH, we create user-friendly websites designed to not only capture attention but also drive conversions. Our websites are built with a seamless user experience in mind, making it easy for visitors to navigate and take action. Whether it’s a custom theme or a WordPress site, we focus on clean, intuitive designs that guide your customers towards making decisions. By optimizing every element, from the layout to the call-to-action buttons, we ensure your site performs effectively, turning casual visitors into loyal customers. Let us build a website that not only looks great but helps your business grow!</p>
+        </div>
+        <button class="websiteButton mt-3 text-darkBlue text-base font-poppins-regular"> Get A Qoute</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+ <!-- READY TO GET IN TOUCH -->
+  <section class="get-intouch bg-darkBlue py-20">
+    <div class="w-[98%] mx-auto">
+      <div class="get-intouch px-10">
+        <h2 class="text-white text-3xl">Got a project you would like to discuss?</h2>
+        <h3 class="text-xl text-red pb-6">You think IT we design IT</h3>
+        <button class="btn">Get in touch</button>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-blue text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © Shannon 2024 | By <a href="https://powerof9.co.za" target="_blank" class="hover:underline">Power of 9</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

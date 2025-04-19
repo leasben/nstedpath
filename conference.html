@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Paradise Resort - Conference</title>
+  </head>
+  <body>
+  <!-- NAV BAR -->
+  <section class="main-menu">
+    <div class="top-section bg-purple p-5 flex justify-between  items-center">
+      <div class="social-icons flex items-center gap-5">
+        <a href="https://www.facebook.com/seriesleisure" target="_blank"><img src="images/facebook-icon.svg" alt="Facebook-Icon"></a>
+        <a href="https://www.instagram.com/series_leisure_lodge/" target="_blank"><img src="images/instagram-icon.svg" alt="Instagram-Icon"></a>
+      </div>
+      <div class="booking">
+        <a class="btn" href="https://live.ipms247.com/booking/errors/propertyconfigureerror.html">BOOK NOW</a>
+      </div>
+    </div>
+      <nav class="navbar border-b-purple border-b-4">
+      <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+         <!-- LOGO -->
+         <div class=" logo py-5">
+             <a href="/">
+                 <img src="images/paradise-resort-logo.svg" alt="Logo" width="100" height="100">
+             </a>
+         </div>
+      
+         <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+         <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+             <span class="hamburger-box">
+                 <span class="hamburger-inner"></span>
+             </span>
+         </btn>
+      
+       <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+      <div class="hidden lg:flex md:items-center lg:gap-24 md:gap-12 ml-auto mr-10 uppercase font-poppins-light text-darkBlue text-xl">
+        <ul class="flex space-x-16">
+          <li class="menu-items hover:text-purple"><a href="/">Home</a></li>
+          <li class="menu-items hover:text-purple"><a href="/conference.html">Conference</a></li>
+          <li class="menu-items hover:text-purple"><a href="/gallery.html">Gallery</a></li>
+          <li class="menu-items hover:text-purple"><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      </div>
+      
+      <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+      <div id="mobile_menu" class="w-full space-y-20 uppercase font-semibold font-poppins-light text-lg z-10 text-white text-left py-6 bg-darkBlue top-20 hidden">
+       <ul class="space-y-8">
+        <li class="menu-items hover:text-purple"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-purple"><a href="/conference.html">Conference</a></li>
+        <li class="menu-items hover:text-purple"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-purple"><a href="/contact.html">Contact</a></li>
+            </ul>
+        
+      </div>
+      </nav>
+      </section>
+<!-- WP Banner -->
+<section class="wordpress-banner-section">
+  <div class="wordpress-banner relative">
+    <picture>
+      <!-- Use the same image and adjust the height at different breakpoints -->
+      <img src="images/conference.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+    </picture>
+    <!-- Darker Overlay Background -->
+    <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+  </div>
+</section>
+
+ <!-- About Section -->
+<section class="about-section">
+  <div class="conf-rooms text-center py-12 bg-gray-100 px-14">
+    <h2 class="text-4xl text-purple pb-5">Conference Rooms</h2>
+    <p class="text-darkBlue">Paradise Resort offers the best conference meeting facilities in Muzarabani, with abundant natural light and exceptional IT support, including projectors and a full PA system. Our versatile venues are perfect for corporate meetings, workshops, and retreats. Comfortable seating, high-speed internet, and customizable room setups ensure your event runs smoothly.
+
+      For an available conference room, <span class="text-purple font-bold"><a href="#">get in touch today</a></span> for more information on how to book and tailor your experience.</p>
+  </div>
+  <div class="w-[98%] mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-12 py-16">
+      <div class="about-content flex items-center">
+        <div class="about-title">
+          <h2 class="text-4xl text-darkBlue">Host Your Next Conference in <span class="text-purple">Paradise</span></h2>
+          <div class="about-text">
+            <p class="text-darkBlue">Whether you're planning a corporate retreat, seminar, team-building workshop, or large-scale conference, <b>Paradise Resort Muzarabani </b>provides the ideal setting. Nestled in a serene natural environment, our resort combines modern facilities with a peaceful ambiance that encourages productivity and creativity.
+
+              We offer flexible event spaces equipped with essential amenities including PA systems, projectors, and high-speed internet. From intimate boardroom meetings to large conferences, our venues can be tailored to suit your needs.
+              
+              Choose from our full-day conference package or the accommodation and conference package, both designed to deliver convenience, comfort, and exceptional value. All packages include refreshments and catering options to keep your team energized throughout the day.
+              
+              Our dedicated events team is here to assist you every step of the way—from planning to execution—ensuring your event runs smoothly and successfully.</p>
+          </div>
+          <button class="about-btn mt-2 uppercase">enquire now
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="images/conference-setup.png" alt="conference">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- MISSION VISION  -->
+ <section class="py-16 bg-purple" id="vision-mission-values">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-semibold text-center text-white">What defines us!</h2>
+    
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Vision -->
+      <div class="flex flex-col items-center bg-white p-6 shadow-lg rounded-lg">
+        <div class="h-20 w-20 bg-green-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">Our Vision</h3>
+        <p class="mt-4 text-center text-gray-600">To be the leading resort destination in Zimbabwe, offering a unique blend of natural beauty, exceptional hospitality, and world-class facilities that inspire relaxation, connection, and memorable experiences.</p>
+      </div>
+
+      <!-- Mission -->
+      <div class="flex flex-col items-center bg-white p-6 shadow-lg rounded-lg">
+        <div class="h-20 w-20 bg-yellow-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path></svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">Our Mission</h3>
+        <p class="mt-4 text-center text-gray-600">At Paradise Resort Muzarabani, our mission is to provide an unforgettable escape for guests—whether they're here to unwind or to connect and collaborate. We are committed to delivering personalized service, top-tier amenities, and a peaceful environment where comfort meets elegance.</p>
+      </div>
+
+      <!-- Values -->
+      <div class="flex flex-col items-center bg-white p-6 shadow-lg rounded-lg">
+        <div class="h-20 w-20 bg-blue-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18m9-9H3"></path></svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">Our Values</h3>
+        <p class="mt-4 text-center text-gray-600">At Paradise Resort Muzarabani, we value excellence, warm hospitality, and sustainability. We embrace innovation, and we proudly support our local community.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- COPYRIGHT FOOTER -->
+   <section class="bottom-footer bg-orange text-white h-[50px] flex justify-center items-center">
+    <div class="bottom-text">
+      © Paradise Resort 2024 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+          
+    </div>
+  </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

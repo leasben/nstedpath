@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Paradise Resort - Contact Us</title>
+  </head>
+  <body>
+ <!-- NAV BAR -->
+ <section class="main-menu">
+  <div class="top-section bg-purple p-5 flex justify-between  items-center">
+    <div class="social-icons flex items-center gap-5">
+      <a href="https://www.facebook.com/seriesleisure" target="_blank"><img src="images/facebook-icon.svg" alt="Facebook-Icon"></a>
+      <a href="https://www.instagram.com/series_leisure_lodge/" target="_blank"><img src="images/instagram-icon.svg" alt="Instagram-Icon"></a>
+    </div>
+    <div class="booking">
+      <a class="btn" href="https://live.ipms247.com/booking/errors/propertyconfigureerror.html">BOOK NOW</a>
+    </div>
+  </div>
+    <nav class="navbar border-b-purple border-b-4">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class=" logo py-5">
+           <a href="/">
+               <img src="images/paradise-resort-logo.svg" alt="Logo" width="100" height="100">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center lg:gap-24 md:gap-12 ml-auto mr-10 uppercase font-poppins-light text-darkBlue text-xl">
+      <ul class="flex space-x-16">
+        <li class="menu-items hover:text-purple"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-purple"><a href="/conference.html">Conference</a></li>
+        <li class="menu-items hover:text-purple"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-purple"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+    <div id="mobile_menu" class="w-full space-y-20 uppercase font-semibold font-poppins-light text-lg z-10 text-white text-left py-6 bg-darkBlue top-20 hidden">
+     <ul class="space-y-8">
+      <li class="menu-items hover:text-purple"><a href="/">Home</a></li>
+      <li class="menu-items hover:text-purple"><a href="/conference.html">Conference</a></li>
+      <li class="menu-items hover:text-purple"><a href="/gallery.html">Gallery</a></li>
+      <li class="menu-items hover:text-purple"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/contact.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold">Get in Touch with Paradise</h1>
+      </div>
+    </div>
+  </section>
+  
+<!-- WEBSITE DESIGN -->
+<section class="web-section bg-gray-50">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:justify-items-center px-10 py-10  bg-gray-100">
+        <div class="address">
+          <img src="images/location.svg" class="w-[50px] h-[50px]" alt="Location">
+          <h2 class="text-xl text-darkBlue py-3">Find Us</h2>
+          <p>Stand 862</p>
+          <p>Muzarabani Growth Point</p>
+        </div>
+        <div class="phone">
+          <img src="images/phone.svg" class="w-[50px] h-[50px]" alt="Location">
+          <h2 class="text-xl text-darkBlue py-3">Phone</h2>
+          <p>1234567</p>
+          <p>1234567</p>
+        </div>
+        <div class="email">
+          <img src="images/envelope.svg" class="w-[50px] h-[50px]" alt="Location">
+          <h2 class="text-xl text-darkBlue py-3">Email</h2>
+          <p><a href="mailto:reservation@paradisezwresort.com">reservation@paradisezwresort.com</a></p>
+          <p><a href="mailto:info@paradisezwresort.com">info@paradisezwresort.com</a></p>
+        </div>
+    </div>
+    <div class="w-[98%] mx-auto"></div>
+        <div class="details text-center">
+          <div class="web-subheading">
+            <h3 class="text-2xl text-darkBlue pt-4">Reach Out, Relax is Just a Call Away</h3>
+          </div>
+          <div class="web-text">
+            <p class="text-darkBlue py-3">contact form here</p>
+          </div>
+        </div>
+    <div class="contact-map">
+      <div class="relative min-h-[350px]" style="padding-top: 36.25%;"> <!-- 16:9 Aspect Ratio -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.6220029836686!2d30.991338075199753!3d-16.39320688433419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x193afba0b5c26e9d%3A0xc565d5491efbd591!2sMuzarabani%20Growth%20Point!5e0!3m2!1sen!2sza!4v1745094628704!5m2!1sen!2sza"
+          width="100%" 
+          height="100%" 
+          style="border:0; position: absolute; top: 0; left: 0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- COPYRIGHT FOOTER -->
+   <section class="bottom-footer bg-orange text-white h-[50px] flex justify-center items-center">
+    <div class="bottom-text">
+      © Paradise Resort 2024 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+          
+    </div>
+  </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
