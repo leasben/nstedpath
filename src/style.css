@@ -351,6 +351,20 @@ h6 {
 }
 
 
+/* FLICKITY GALLERY SECTION */
+.carousel-cell {
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+.carousel-cell  img {
+  @apply w-full sm:h-[300px] md:h-[400px] lg:h-[500px] object-cover;
+}
+
+
+
 
 
  
