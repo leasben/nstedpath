@@ -1,5 +1,5 @@
 {
-  "name": "paradise-resort",
+  "name": "riotinto",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "20": "^3.1.9",
     "flickity": "^3.0.0",
     "flickity-fade": "^2.0.0",
     "hamburgers": "^1.2.1",

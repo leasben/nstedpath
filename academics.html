@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Academics | Rio Tinto Zhombe High School</title>
+  </head>
+  <body>
+  <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class="logo py-2">
+           <a href="/">
+               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+      <ul class="flex space-x-11">
+        <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-primaryGreen uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+    <ul class="flex flex-col items-center space-y-4">
+       <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/academics.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold"> Excellence in Learning</h1>
+        <button class="sharedButton web-button my-6">Explore Admissions</button>
+      </div>
+    </div>
+  </section>
+  
+<!-- ACADEMIC SECTION -->
+ <section class="relative academics text-primaryGreen font-bold py-20">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-5xl font-bold mb-6 tracking-tight">
+      Academic Excellence from Form 1 to Form 6
+    </h2>
+    <p class="text-xl text-gray-900 font-poppins-light max-w-3xl mx-auto leading-tight tracking-wide">
+      Providing quality secondary education under the ZIMSEC curriculum,
+      shaping confident, knowledgeable and future-ready learners.
+    </p>
+  </div>
+</section>
+
+<!-- CURRICULUMN OVERVIEW -->
+<section class="py-24 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+      <!-- LEFT SIDE IMAGE -->
+      <div class="relative order-2 lg:order-1">
+        <div class="absolute -top-6 -right-6 w-48 h-48 bg-blue-100 rounded-full blur-2xl opacity-50"></div>
+
+        <img src="images/academic-curriculumn.jpg"
+          alt="Teacher explaining lesson in classroom" class="rounded-3xl shadow-2xl relative object-cover z-10"/>
+        <div class="absolute -bottom-6 -left-6 w-40 h-40 bg-indigo-100 rounded-full blur-2xl opacity-50"></div>
+      </div>
+
+      <!-- RIGHT SIDE CONTENT -->
+      <div class="order-1 lg:order-2">
+        <h2 class="text-4xl font-bold text-primaryGreen mb-6 leading-tight">
+          Curriculum Overview
+        </h2>
+
+        <p class="text-lg text-gray-900 mb-6 font-poppins-light leading-relaxed">
+          Our academic programme follows the Zimbabwe School Examinations Council (ZIMSEC)
+          curriculum, providing a structured and nationally recognized pathway from 
+          Form 1 to Form 6.
+        </p>
+
+        <p class="text-gray-600 mb-10 leading-relaxed">
+          We combine theoretical knowledge with practical application, continuous 
+          assessment, and strong examination preparation to ensure outstanding 
+          academic performance.
+        </p>
+
+        <!-- FEATURE LIST -->
+        <div class="space-y-4">
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
+            <p class="text-gray-700">Continuous Assessment Learning Activities</p>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
+            <p class="text-gray-700">Strong Examination Preparation</p>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
+            <p class="text-gray-700">Balanced Practical & Theoretical Learning</p>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
+            <p class="text-gray-700">Qualified and Experienced Educators</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ORDINARY LEVEL -->
+<section class="relative py-28 bg-gradient-to-br from-[var(--primaryGreen)] via-[var(--darkGreen)] to-[var(--primaryGreen)] text-white overflow-hidden">
+  
+  <!-- Background Glow Effects -->
+  <div class="absolute top-0 left-0 w-72 h-72 bg-[var(--goldYellow)] opacity-20 rounded-full blur-3xl"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-[var(--brickBrown)] opacity-20 rounded-full blur-3xl"></div>
+
+  <div class="relative max-w-7xl mx-auto px-6">
+
+    <!-- Heading -->
+    <div class="text-center mb-20">
+      <h2 class="text-5xl font-extrabold mb-6 tracking-tight">
+        Form 1 – Form 4 Programme
+      </h2>
+      <p class="text-lg md:text-xl text-[var(--goldYellow)] max-w-3xl mx-auto">
+        A strong academic foundation built on discipline, critical thinking,
+        and excellence in preparation for ZIMSEC O-Level examinations.
+      </p>
+    </div>
+
+    <!-- Content Grid -->
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+      <!-- LEFT CONTENT -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-6 text-[var(--goldYellow)]">
+          Foundation & O-Level Preparation
+        </h3>
+
+        <p class="text-[var(--goldYellow)] leading-relaxed mb-8">
+          From Form 1 to Form 4, learners develop core academic competencies,
+          analytical skills, and subject mastery required for outstanding
+          O-Level performance.
+        </p>
+
+        <!-- Highlight Stats -->
+        <div class="grid grid-cols-2 gap-6">
+          <div class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/20">
+            <h4 class="text-3xl font-bold text-[var(--goldYellow)]">8+</h4>
+            <p class="text-sm text-[var(--goldYellow)] mt-2">Subjects Offered</p>
+          </div>
+
+          <div class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/20">
+            <h4 class="text-3xl font-bold text-[var(--goldYellow)]">95%</h4>
+            <p class="text-sm text-[var(--goldYellow)] mt-2">O-Level Pass Rate</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SUBJECT CARDS -->
+      <div class="grid sm:grid-cols-2 gap-6">
+
+        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
+          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Core Subjects</h4>
+          <p class="text-[var(--goldYellow)] text-sm">
+            English, Mathematics, Integrated Science, Heritage Studies.
+          </p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
+          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Sciences</h4>
+          <p class="text-[var(--goldYellow)] text-sm">
+            Biology, Chemistry, Physics.
+          </p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
+          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Commercials</h4>
+          <p class="text-[var(--goldYellow)] text-sm">
+            Accounting, Business Studies, Economics.
+          </p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
+          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Practical & Technical</h4>
+          <p class="text-[var(--goldYellow)] text-sm">
+            Agriculture, Computer Science, Technical Graphics.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ADVANCED LEVEL -->
+<section class="relative py-32 bg-black text-white overflow-hidden">
+
+  <!-- Background Gradient Overlay (No Green) -->
+  <div class="absolute inset-0 bg-gradient-to-br from-[var(--brickBrown)] via-black to-[var(--goldYellow)] opacity-90"></div>
+
+  <!-- Decorative Glow in Gold and Brown -->
+  <div class="absolute top-20 left-10 w-80 h-80 bg-[var(--goldYellow)] opacity-20 rounded-full blur-3xl"></div>
+  <div class="absolute bottom-10 right-10 w-96 h-96 bg-[var(--brickBrown)] opacity-20 rounded-full blur-3xl"></div>
+
+  <div class="relative max-w-7xl mx-auto px-6">
+
+    <!-- Heading -->
+    <div class="text-center mb-20">
+      <h2 class="text-5xl font-extrabold tracking-tight mb-6">
+        Advanced Level (Form 5 – 6)
+      </h2>
+      <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
+        Specialised academic pathways designed to prepare learners for
+        university, leadership, and professional excellence.
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+      <!-- LEFT IMAGE -->
+      <div class="relative group">
+        <img 
+          src="images/adavanced-level.jpg"
+          alt="A-Level students studying"
+          class="rounded-3xl shadow-2xl transform group-hover:scale-105 transition duration-500 object-cover"
+        />
+        <div class="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
+      </div>
+
+      <!-- RIGHT STREAM CARDS -->
+      <div class="space-y-8">
+
+        <!-- SCIENCES -->
+        <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl hover:bg-[var(--goldYellow)]/20 transition duration-500">
+          <h3 class="text-2xl font-bold mb-4 text-[var(--goldYellow)]">Sciences</h3>
+          <p class="text-gray-200">
+            Mathematics, Physics, Chemistry, Biology — equipping learners
+            for careers in engineering, medicine, and technology.
+          </p>
+        </div>
+
+        <!-- COMMERCIALS -->
+        <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl hover:bg-[var(--brickBrown)]/20 transition duration-500">
+          <h3 class="text-2xl font-bold mb-4 text-[var(--brickBrown)]">Commercials</h3>
+          <p class="text-gray-200">
+            Accounting, Economics, Business Studies — preparing students
+            for leadership in commerce and entrepreneurship.
+          </p>
+        </div>
+
+        <!-- ARTS -->
+        <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl hover:bg-[var(--goldYellow)]/20 transition duration-500">
+          <h3 class="text-2xl font-bold mb-4 text-[var(--goldYellow)]">Arts</h3>
+          <p class="text-gray-200">
+            History, Literature, Sociology, Languages — developing critical
+            thinkers and communicators for global impact.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- TEACHING ACADEMIC EXCELLENCE -->
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+      
+      <!-- LEFT SIDE CONTENT -->
+      <div>
+        <h2 class="text-5xl font-extrabold text-primaryGreen mb-6 leading-tight">
+          Academic Excellence
+        </h2>
+
+        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+          Our commitment to excellence is reflected in our consistent pass rates,
+          disciplined learning environment, and university-ready graduates.
+          We nurture independent thinkers equipped with knowledge, confidence,
+          and strong moral values.
+        </p>
+
+        <p class="text-gray-600 mb-10 leading-relaxed">
+          Through qualified educators, modern teaching methods, and continuous
+          academic monitoring, we ensure every learner reaches their full potential
+          from Form 1 through Form 6.
+        </p>
+
+        <!-- STATS -->
+        <div class="grid grid-cols-2 gap-6">
+          <div class="bg-indigo-50 p-6 rounded-xl shadow-md">
+            <h3 class="text-3xl font-bold text-darkGreen">95%</h3>
+            <p class="text-gray-600 mt-2">O-Level Pass Rate</p>
+          </div>
+
+          <div class="bg-indigo-50 p-6 rounded-xl shadow-md">
+            <h3 class="text-3xl font-bold text-darkGreen">95%</h3>
+            <p class="text-gray-600 mt-2">A-Level University Placement</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE IMAGE -->
+      <div class="relative">
+        <div class="absolute -top-6 -left-6 w-32 h-32 bg-indigo-100 rounded-full blur-2xl opacity-50"></div>
+        
+        <img 
+          src="https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+          alt="Students studying in classroom"
+          class="rounded-3xl shadow-2xl relative z-10"
+        />
+
+        <div class="absolute -bottom-6 -right-6 w-40 h-40 bg-blue-100 rounded-full blur-2xl opacity-50"></div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- TAKE NEXT STEP -->
+ <section class="next-step bg-darkGreen">
+  <div class="w-[98%] mx-auto">
+    <div class="max-w-6xl px-5 mx-auto py-10">
+    <h2 class="text-white text-4xl text-center font-semibold py-6">Take the next step</h2>
+    <p class="text-base font-poppins-light text-center text-white">Rio Tinto Zhombe High School is proud of its history for providing students with the skills and capabilities to become active global citizens.
+</p>
+<div class="flex items-center justify-center my-7">
+ <button class="enroll-button text-xl font-poppins-medium"> Start your enrollment</button>
+</div>
+</div>
+  </div>
+ </section>
+
+   <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

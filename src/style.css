@@ -7,12 +7,11 @@
 
 
 :root {
-  --blue: #08265a;
-  --green: #07522c;
-  --black: #000;
-  --red: #ff0000; 
-  --purple: #5f0033;
-  --orange: #bf8e00;
+  --primaryGreen: #1f7a3e;
+  --darkGreen: #166534;
+  --goldYellow: #f2c300;
+  --brickBrown: #8b5a2b;
+  --textcolor: #6B7280;
 }
 
 * {
@@ -95,103 +94,204 @@ h6 {
 }
 
 .logo img {
-  @apply w-[110px];
-  aspect-ratio: 100 / 100;
+  @apply w-[90px] lg:w-[100px];
 }
 
+
 .home-carousel-cell {
-  @apply w-full h-[550px];
+  @apply w-full h-[680px];
 } 
 
+.home-carousel-mobile {
+  @apply w-full h-[350px]
+}
+
 #homeCarousel .flickity-page-dots {
-  @apply pb-10;
+  @apply pb-[38px] md:pb-10;
 } 
 
 #homeCarousel .flickity-page-dot.is-selected {
- @apply bg-blue;
+ @apply bg-goldYellow;
 }
 
 #homeCarousel .flickity-page-dot {
 @apply bg-white;
 }
 
-/* TOP SECTION */
-.social-icons img{
-  @apply w-[20px] h-[20px]
+/* APPLY NIOW */
+/* From Uiverse.io by shah1345 */ 
+.button2 {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: var(--primaryGreen);
+  padding: 0.7em 1.7em;
+  cursor: pointer;
+  font-size: 18px;
+  background: var(--goldYellow);
+  border: 1px solid var(--goldYellow);
+  
 }
 
-/* TOP BOOKIMNG BUTTON */
-/* From Uiverse.io by ernestnash */ 
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1.6rem;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  border: 2px solid rgb(255, 255, 255);
-  cursor: pointer;
-  position: relative;
-  background-color: transparent;
-  text-decoration: none;
-  overflow: hidden;
-  z-index: 1;
-  font-family: inherit;
- }
- 
- .btn::before {
+.button2:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.button2:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(252, 70, 100);
-  transform: translateX(-100%);
-  transition: all .3s;
-  z-index: -1;
- }
- 
- .btn:hover::before {
-  transform: translateX(0);
- }
-
-/* QUOTE BUTTON */
-.quote-button button {
-  padding: 16px;
-  border: 2px solid var(--purple);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  background-color: transparent;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 16px;
-  transition: .3s;
-  z-index: 1;
-  color: var(--purple);
- }
- 
- .quote-button button::before {
-  content: '';
-  width: 0;
-  height: 300%;
-  position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  background: var(--purple);
-  transition: .5s ease;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
   display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
   z-index: -1;
- }
- 
- .quote-button button:hover::before {
-  width: 105%;
- }
- 
- .quote-button button:hover {
+}
+
+.button2:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: var(--primaryGreen);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:hover {
+  color: #ffffff;
+  border: 1px solid #009087;
+}
+
+.button2:hover:before {
+  top: -35%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button2:hover:after {
+  top: -45%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+/* ENROLLMENT BUTTON */
+/* From Uiverse.io by Randdose */ 
+.enroll-button {
+  padding: 12.5px 30px;
+  border: 0;
+  background-color: var(--goldYellow);
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.enroll-button:hover {
+  background-color: var(--brickBrown);
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.enroll-button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+/* HOME ABOUT BACKGROUND  */
+.home-about {
+  background-color: #f9f8fa;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.11' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+.business-sector{
+  background-color: #eae7ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23bfb5cf' fill-opacity='0.06'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ACADEMICS */
+.academics {
+ background-color: #e3e3e3;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239C92AC' fill-opacity='0.15'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME ABOUT BUTTON */
+/* From Uiverse.io by cssbuttons-io */ 
+.home-about-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.home-about-button:hover {
+  background-color: var(--primarycolor);
+  box-shadow: 0px 15px 20px rgba(85, 87, 244, 0.4);
   color: #fff;
- }
+  transform: translateY(-7px);
+}
+
+.home-about-button:active {
+  transform: translateY(-1px);
+}
+
+/* OUR TEAM */
+  .modal { display: none; }
+  .modal:target { display: flex; }
+
+/* OOUR TEAM BACKGROUND */
+
+.team {
+  background-color: #c1d0ec;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239295ac' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* SERVICES BACKGROUND */
+
+.services {
+ background-color: #f4f6f9;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239295ac' fill-opacity='0.08'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+
+
 
  /* READ MORE BUTTON */ 
 .read-more button {
@@ -293,79 +393,4 @@ h6 {
   outline: 2px solid var(--purple);
   box-shadow: 4px 5px 17px -4px var(--purple);
 }
-
-/* ABOUT SECTION */
-/* From Uiverse.io by adamgiebl */ 
-.about-btn {
-  border: none;
-  display: block;
-  position: relative;
-  padding: 0.7em 2.4em;
-  font-size: 18px;
-  background: transparent;
-  cursor: pointer;
-  user-select: none;
-  overflow: hidden;
-  color: var(--purple);
-  z-index: 1;
-  font-family: inherit;
-  font-weight: 500;
-}
-
-.about-btn span {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  z-index: -1;
-  border: 2px solid var(--purple);
-}
-
-.about-btn span::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 8%;
-  height: 500%;
-  background: var(--lightgray);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-60deg);
-  transition: all 0.3s;
-}
-
-.about-btn:hover span::before {
-  transform: translate(-50%, -50%) rotate(-90deg);
-  width: 100%;
-  background: var(--purple);
-}
-
-.about-btn:hover {
-  color: white;
-}
-
-.about-btn:active span::before {
-  background: var(--purple);
-}
-
-
-/* FLICKITY GALLERY SECTION */
-.carousel-cell {
-  width: 100%;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-}
-
-.carousel-cell  img {
-  @apply w-full sm:h-[300px] md:h-[400px] lg:h-[500px] object-cover;
-}
-
-
-
-
-
- 
 

@@ -8,9 +8,13 @@ export default defineConfig({
     sourcemap: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'), 
-        conference: resolve(__dirname, 'conference.html'),
-        gallery: resolve(__dirname, 'gallery.html'),
+       main: resolve(__dirname, 'index.html'),
+        about: resolve(__dirname, 'about-us.html'),
+        staff: resolve(__dirname, 'our-staff.html'), 
+        academics: resolve(__dirname, 'academics.html'),
+        admissions: resolve(__dirname, 'admissions.html'),
+        news: resolve(__dirname, 'news.html'),
+        gallery: resolve(__dirname, 'gallery.html'), 
         contact: resolve(__dirname, 'contact.html'),
       },
       output: {
