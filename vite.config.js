@@ -13,6 +13,7 @@ export default defineConfig({
         staff: resolve(__dirname, 'our-staff.html'), 
         academics: resolve(__dirname, 'academics.html'),
         admissions: resolve(__dirname, 'admissions.html'),
+        rosa: resolve(__dirname, 'rosa.html'),
         news: resolve(__dirname, 'news.html'),
         gallery: resolve(__dirname, 'gallery.html'), 
         contact: resolve(__dirname, 'contact.html'),
