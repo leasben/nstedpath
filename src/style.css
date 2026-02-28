@@ -98,26 +98,6 @@ h6 {
 }
 
 
-.home-carousel-cell {
-  @apply w-full h-[680px];
-} 
-
-.home-carousel-mobile {
-  @apply w-full h-[350px]
-}
-
-#homeCarousel .flickity-page-dots {
-  @apply pb-[38px] md:pb-10;
-} 
-
-#homeCarousel .flickity-page-dot.is-selected {
- @apply bg-goldYellow;
-}
-
-#homeCarousel .flickity-page-dot {
-@apply bg-white;
-}
-
 /* BACK TO TOP */
 #backToTop {
   @apply hidden fixed bottom-[20px] right-[30px] bg-goldYellow text-white border-none rounded-[5px] cursor-pointer z-[100];

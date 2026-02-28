@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>About Us | Rio Tinto Zhombe High School</title>
+    <script type="module" crossorigin src="/assets/main-BlKXRLSZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-CkC_-czx.css">
+  </head>
+   <!-- BACK TO TOP -->
+   <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
+  <body>
+ <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class="logo py-2">
+           <a href="/">
+               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+      <ul class="flex space-x-11">
+        <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-primaryGreen uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+    <ul class="flex flex-col items-center space-y-4">
+       <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/about-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black/60"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold"> About Rio Tinto Zhome High School</h1>
+        <button class="sharedButton web-button my-6">Explore Academics</button>
+      </div>
+    </div>
+  </section>
+  
+      <!-- ABOUT US -->
+<section class="py-10 relative home-about">
+
+  <!-- anchor used to close modal WITHOUT scrolling to top -->
+  <span id="close-modal" class="absolute -top-20"></span>
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div>
+    <h2 class="text-4xl font-semibold text-center text-primaryGreen mb-5">
+      About Rio Tinto Zhome High School
+    </h2>
+    <p class="text-base font-poppins-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore similique odio quidem quibusdam aliquid at, libero praesentium facere alias autem nulla inventore quaerat sunt sequi quod aperiam, repudiandae maxime deserunt in? Aliquid itaque corrupti est voluptates porro doloremque sit at?
+    </p>
+    <p class="text-xl font-poppins-medium pt-3">Kwashira</p>
+      <p class="text-xl font-poppins-medium py-2">Head</p>
+      </div>
+      <div class="max-w-7xl mx-auto">
+    
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Vision -->
+      <div class="flex flex-col items-center bg-white p-6 shadow-lg rounded-lg">
+        <div class="h-20 w-20 bg-green-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">Our Vision</h3>
+        <p class="mt-4 text-center text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti impedit soluta, eum id voluptate velit molestias, placeat, porro provident odit asperiores unde sequi illo doloribus similique reprehenderit quisquam expedita ut deserunt. Dolor, iure? Autem, excepturi.</p>
+      </div>
+
+      <!-- Mission -->
+      <div class="flex flex-col items-center bg-white p-6 shadow-lg rounded-lg">
+        <div class="h-20 w-20 bg-yellow-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path></svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">Our Mission</h3>
+        <p class="mt-4 text-center text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis laudantium, minima quasi ipsum aperiam pariatur beatae quibusdam reprehenderit nam magnam voluptatem praesentium ab voluptatum autem impedit animi eaque. Dolorum iste facilis beatae, iusto, eligendi consequuntur aliquid maiores aperiam adipisci ipsam porro ad nostrum? Culpa laborum delectus explicabo eligendi mollitia dolor.</p>
+      </div>
+
+      <!-- Values -->
+      <div class="flex flex-col items-center bg-white p-6 shadow-lg rounded-lg">
+        <div class="h-20 w-20 bg-blue-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18m9-9H3"></path></svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">Our Values</h3>
+        <p class="mt-4 text-center text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laborum cumque officiis exercitationem ipsa iste qui nihil similique nostrum tenetur recusandae maxime, fugiat voluptatum numquam quae aperiam voluptates doloribus aut nisi accusamus ab? Explicabo tempore esse, expedita saepe praesentium eum.</p>
+      </div>
+
+      <!-- OUR HISTORY -->
+      <div class="flex flex-col items-center bg-white p-6 shadow-lg rounded-lg">
+        <div class="h-20 w-20 bg-blue-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18m9-9H3"></path></svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-gray-900">Our History</h3>
+        <p class="mt-4 text-center text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laborum cumque officiis exercitationem ipsa iste qui nihil similique nostrum tenetur recusandae maxime, fugiat voluptatum numquam quae aperiam voluptates doloribus aut nisi accusamus ab? Explicabo tempore esse, expedita saepe praesentium eum.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- TEACHERS SECTION -->
+<section class="py-16 text-center">
+
+  <h2 class="text-4xl font-bold text-primaryGreen">
+    Our Leadership Team
+  </h2>
+
+  <p class="text-gray-900 mt-4 max-w-3xl mx-auto leading-tight tracking-wide">
+    Meet the experienced professionals guiding Rio Tinto Zhome High School toward excellence.
+  </p>
+
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-8xl mx-auto px-8 py-5">
+
+<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
+
+    <div class="relative w-40 h-40 mx-auto">
+        <img src="images/teacher-1.jpg" 
+             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
+    </div>
+
+    <h3 class="mt-6 text-2xl font-bold text-gray-800">
+        John Doe
+    </h3>
+
+    <p class="text-gray-900 font-medium tracking-wide">
+        Mathematics Teacher
+    </p>
+
+    <div class="social">
+     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
+    </div>
+
+    <button onclick="openModal('teacherModal1')" 
+        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
+        view bio
+    </button>
+
+</div>
+<!-- Modal -->
+<div id="teacherModal1" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
+
+  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
+
+      <!-- Fix: Pass the correct modal ID -->
+      <button onclick="closeModal('teacherModal1')" 
+              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
+          x
+      </button>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+
+          <img src="images/teacher-1.jpg" class="w-40 h-40 rounded-full object-cover">
+
+          <div>
+              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
+              <p class="text-darkGreen font-semibold">Head of Mathematics Department</p>
+
+              <div class="mt-4 text-gray-600 space-y-2 ">
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Qualifications:</h2>
+                    <p>BSc Mathematics, PGCE</p>
+                  </div>
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Experience:</h2>
+                    <p>12 Years</p>
+                  </div>
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Speciality:</h2>
+                    <p>Mathematics A-level</p>
+                  </div>
+                 
+                  
+              </div>
+          </div>
+
+      </div>
+
+      <div class="mt-6 text-gray-700 leading-relaxed">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
+      </div>
+
+  </div>
+</div>
+
+<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
+
+    <div class="relative w-40 h-40 mx-auto">
+        <img src="images/teacher-2.jpg" 
+             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
+    </div>
+
+    <h3 class="mt-6 text-2xl font-bold text-gray-800">
+        John Doe
+    </h3>
+
+    <p class="text-gray-900 font-medium tracking-wide">
+        History Teacher
+    </p>
+
+    <div class="social">
+     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
+    </div>
+
+    <button onclick="openModal('teacherModal2')" 
+        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
+        view bio
+    </button>
+
+</div>
+<!-- Modal -->
+<div id="teacherModal2" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
+
+  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
+
+      <!-- Fix: Pass the correct modal ID -->
+      <button onclick="closeModal('teacherModal2')" 
+              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
+          x
+      </button>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+
+          <img src="images/teacher-2.jpg" class="w-40 h-40 rounded-full object-cover">
+
+          <div>
+              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
+              <p class="text-darkGreen font-semibold">Head of History Department</p>
+
+              <div class="mt-4 text-gray-600 space-y-2 ">
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Qualifications:</h2>
+                    <p>BA Arts</p>
+                  </div>
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Experience:</h2>
+                    <p>2 Years</p>
+                  </div>
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Speciality:</h2>
+                    <p>History A-level</p>
+                  </div>
+                 
+                  
+              </div>
+          </div>
+
+      </div>
+
+      <div class="mt-6 text-gray-700 leading-relaxed">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
+      </div>
+
+  </div>
+</div>
+
+<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
+
+    <div class="relative w-40 h-40 mx-auto">
+        <img src="images/teacher-3.jpg" 
+             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
+    </div>
+
+    <h3 class="mt-6 text-2xl font-bold text-gray-800">
+        John Doe
+    </h3>
+
+    <p class="text-gray-900 font-medium tracking-wide">
+        Computer Science Teacher
+    </p>
+
+    <div class="social">
+     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
+    </div>
+
+    <button onclick="openModal('teacherModal3')" 
+        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
+        view bio
+    </button>
+
+</div>
+<!-- Modal -->
+<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
+
+  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
+
+      <!-- Fix: Pass the correct modal ID -->
+      <button onclick="closeModal('teacherModal3')" 
+              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
+          x
+      </button>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+
+          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
+
+          <div>
+              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
+              <p class="text-darkGreen font-semibold">Computer Science Department</p>
+
+              <div class="mt-4 text-gray-600 space-y-2 ">
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Qualifications:</h2>
+                    <p>Computer Science</p>
+                  </div>
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Experience:</h2>
+                    <p>8 Years</p>
+                  </div>
+                 <div class="flex gap-2">
+                  <h2 class="text-base font-semibold">Speciality:</h2>
+                    <p>Computer Science O-level</p>
+                  </div>
+                 
+                  
+              </div>
+          </div>
+
+      </div>
+
+      <div class="mt-6 text-gray-700 leading-relaxed">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
+      </div>
+
+  </div>
+</div>
+
+</div>
+
+  <a href="/our-staff.html"
+     class="inline-block mt-10 px-10 text-base font-poppins-light py-3 border-2 border-goldYellow text-blue-900 rounded-full tracking-widest hover:bg-goldYellow hover:text-white transition duration-300">
+     MEET OUR FULL ACADEMIC TEAM
+  </a>
+
+</section>
+
+
+<script>
+function openModal(modalId) {
+  const modal = document.getElementById(modalId);
+  modal.classList.remove('hidden');
+  modal.classList.add('flex');
+}
+
+function closeModal(modalId) {
+  const modal = document.getElementById(modalId);
+  modal.classList.add('hidden');
+  modal.classList.remove('flex');
+}
+</script>
+
+<!-- TAKE NEXT STEP -->
+ <section class="next-step bg-darkGreen">
+  <div class="w-[98%] mx-auto">
+    <div class="max-w-6xl px-5 mx-auto py-10">
+    <h2 class="text-white text-4xl text-center font-semibold py-6">Take the next step</h2>
+    <p class="text-base font-poppins-light text-center text-white">Rio Tinto Zhombe High School is proud of its history for providing students with the skills and capabilities to become active global citizens.
+</p>
+<div class="flex items-center justify-center my-7">
+ <button class="enroll-button text-xl font-poppins-medium"> Start your enrollment</button>
+</div>
+</div>
+  </div>
+ </section>
+
+   <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+  </body>
+</html>

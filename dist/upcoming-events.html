@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Rio Tinto Zhombe High School | News</title>
+    <script type="module" crossorigin src="/assets/main-BlKXRLSZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-CkC_-czx.css">
+  </head>
+   <!-- BACK TO TOP -->
+   <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
+  <body>
+     
+  <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class="logo py-2">
+           <a href="/">
+               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+      <ul class="flex space-x-11">
+        <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-primaryGreen uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+    <ul class="flex flex-col items-center space-y-4">
+       <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+ 
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/news-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold"> School News & Updates</h1>
+        <button class="sharedButton web-button my-6">Explore Our School</button>
+      </div>
+    </div>
+  </section>
+
+<!-- UPCOMIMG EVENTS -->
+ <!-- UPCOMING EVENTS -->
+<section id="events" class="py-20 bg-gray-50">
+  <div class="w-[95%] mx-auto px-6 lg:px-12">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-primaryGreen">Upcoming Events</h2>
+      <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+        Stay informed about important dates, activities, and special moments happening at Rio Tinto Zhombe High School.
+      </p>
+    </div>
+
+    <!-- Events Grid -->
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Event Card -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+        
+        <!-- Image -->
+        <div class="relative">
+          <img src="images/gallery-6.jpg" alt="Sports Day" class="w-full h-52 object-cover">
+
+          <!-- Date Badge -->
+          <div class="absolute top-4 left-4 bg-primaryGreen text-white px-4 py-2 rounded-lg text-center">
+            <p class="text-sm">MAR</p>
+            <p class="text-xl font-bold">12</p>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Annual Sports Day</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            A fun-filled day of athletics and teamwork where students compete and showcase their sporting talents.
+          </p>
+          <a href="#" class="text-primaryGreen font-semibold hover:underline">Learn More →</a>
+        </div>
+      </div>
+
+      <!-- Event Card -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+        <div class="relative">
+          <img src="images/gallery-1.jpg" alt="Parents Meeting" class="w-full h-52 object-cover">
+          <div class="absolute top-4 left-4 bg-primaryGreen text-white px-4 py-2 rounded-lg text-center">
+            <p class="text-sm">APR</p>
+            <p class="text-xl font-bold">05</p>
+          </div>
+        </div>
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Parents Consultation Day</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Parents meet teachers to discuss student progress and strengthen collaboration for academic success.
+          </p>
+          <a href="#" class="text-primaryGreen font-semibold hover:underline">Learn More →</a>
+        </div>
+      </div>
+
+      <!-- Event Card -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+        <div class="relative">
+          <img src="images/gallery-2.jpg" alt="Prize Giving" class="w-full h-52 object-cover">
+          <div class="absolute top-4 left-4 bg-primaryGreen text-white px-4 py-2 rounded-lg text-center">
+            <p class="text-sm">APR</p>
+            <p class="text-xl font-bold">28</p>
+          </div>
+        </div>
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Prize Giving Ceremony</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Celebrating academic excellence and outstanding achievements of our students across all disciplines.
+          </p>
+          <a href="#" class="text-primaryGreen font-semibold hover:underline">Learn More →</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+ 
+
+   <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+  </body>
+</html>

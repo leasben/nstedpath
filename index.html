@@ -5,8 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="/src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <title>Rio Tinto Zhombe High School | Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"><link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ <title>Rio Tinto Zhombe High School | Home</title>
   </head>
    <!-- BACK TO TOP -->
    <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
@@ -40,6 +41,7 @@
         <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
         <li class="menu-items hover:text-primaryGreen"><a href="/rosa.html">Rosa</a></li>
         <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/upcoming-events.html">Events</a></li>
         <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
         <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
       </ul>
@@ -62,81 +64,53 @@
     </div>
     </nav>
     </section>
- 
+
+ <section class="relative">
 <!-- HOME SLIDER SECTION -->
- <section class="home-slider">
- <div class="home-slider">
-  <div id="homeCarousel" class="home-carousel hidden md:block relative" data-flickity='{ "wrapAround": true, "autoPlay": 2500, "pauseAutoPlayOnHover": true, "prevNextButtons": true, "pageDots": false }'>
-    
-  <div class="home-carousel-cell">
-    <img src="images/school-home-banner-1.jpg" alt="banner" class="w-full h-[680px] object-cover">
-      <!-- Darker Overlay Background -->
-      <div class="absolute inset-0 bg-black/60"></div> <!-- Darker overlay -->
-      <!-- Text Content -->
-      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
-        <h1 class="text-white text-4xl md:text-6xl font-bold tracking-wide leading-tight"> Shaping Future Leaders Through<br> Excellence</h1>
-        <p class="text-white/90 text-lg md:text-xl mt-4 font-light tracking-widest uppercase">Endure With Courage</p>
-        <div class="mt-6 flex gap-4">
-        <a class="bg-goldYellow text-primaryGreen px-6 py-3 font-semibold uppercase tracking-wide button2">Apply Now</a>
-      <a class="border border-primaryGreen text-white px-6 py-3 uppercase tracking-wide hover:bg-white hover:text-primaryGreen transition">Learn More
-      </a>
-</div>
-      </div>
-  </div>
+<div class="carousel" data-flickity='{ "autoPlay": 2000, "wrapAround": true, "pageDots": false, "prevNextButtons": true, "contain": true }'>
 
-   <div class="home-carousel-cell">
-    <img src="images/school-banner-2.jpg" alt="banner" class="w-full h-[680px] object-cover">
-      <!-- Darker Overlay Background -->
-      <div class="absolute inset-0 bg-black/60"></div> <!-- Darker overlay -->
-      <!-- Text Content -->
-      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
-        <h1 class="text-white text-4xl md:text-6xl font-bold tracking-wide leading-tight"> Committed to Academic Achievement</h1>
-        <p class="text-white/90 text-lg md:text-xl mt-4 font-light tracking-widest uppercase">A tradition of academic strength and discipline</p>
-        <button class="sharedButton web-button my-6">Admissions</button>
+ <div class="carousel-cell relative w-full h-[380px] md:h-[500px] lg:h-[580px]">
+  <img src="images/desktop-banner.jpg" alt="School banner" loading="lazy"
+       class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-black/50"></div>
+  <div class="relative z-10 h-full flex items-center justify-center px-6 uppercase">
+    <div class="text-white max-w-6xl text-center mx-auto">
+      <h1 class="text-5xl font-bold mb-3">Welcome To Our School</h1>
+      <p class="mb-4">Excellence in education and leadership development.</p>
+      <div class="flex-col md:flex-row flex items-center justify-center gap-6 uppercase px-10">
+        <a href="#" class="button2">Apply Now</a>
+         <a href="#" class="border-[1px] border-primaryGreen hover:bg-darkGreen hover:border-darkGreen p-[0.7em] text-[18px] font-semibold">Learn More</a>
+    </div>
       </div>
+     
   </div>
-  
-
-</div>
-<!-- MOBILE SLIDER -->
-<div class="home-carousel-mobile block md:hidden" data-flickity='{ "wrapAround": true, "autoPlay": 2500, "pauseAutoPlayOnHover": true, "prevNextButtons": true, "pageDots": false }'>
-  <div class="home-carousel-mobile">
-    <img src="images/school-banner-2.jpg" alt="banner-1" class="w-full h-[350px] object-cover">
-     <!-- Darker Overlay Background -->
-      <div class="absolute inset-0 bg-black/60"></div> <!-- Darker overlay -->
-      <!-- Text Content -->
-      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-8">
-        <h1 class="text-white text-2xl font-bold tracking-wide leading-tight"> Committed to Academic Achievement</h1>
-        <p class="text-white/90 text-base mt-2 font-light tracking-widest uppercase">A tradition of academic strength and discipline</p>
-        <button class="sharedButton web-button my-3">Admissions</button>
-      </div>
   </div>
-
-    <div class="home-carousel-mobile">
-    <img src="images/school-home-banner-1.jpg" alt="banner" class="w-full h-[680px] object-cover">
-      <!-- Darker Overlay Background -->
-      <div class="absolute inset-0 bg-black/60"></div> <!-- Darker overlay -->
-      <!-- Text Content -->
-      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-8">
-        <h1 class="text-white text-2xl font-bold tracking-wide leading-tight"> Welcome to Rio Tinto Zhombe<br> High School</h1>
-        <p class="text-white/90 text-base mt-2 font-light tracking-widest uppercase">Endure With Courage</p>
-        <div class="mt-6 flex gap-4">
-        <a class="bg-goldYellow text-primaryGreen px-6 py-3 font-semibold uppercase tracking-wide button2">Apply Now</a>
-      <a class="border border-primaryGreen text-white px-6 py-3 uppercase tracking-wide hover:bg-white hover:text-primaryGreen transition">Learn More
-      </a>
-</div>
-      </div>
-  </div>
+  <!-- slider-2 -->
  
+<div class="carousel-cell relative w-full h-[380px] md:h-[500px] lg:h-[580px]">
+  <img src="images/desktop-banner-2.jpg" alt="School banner" loading="lazy"
+       class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-black/50"></div>
+  <div class="relative z-10 h-full flex items-center justify-center px-6 uppercase">
+    <div class="text-white max-w-6xl text-center mx-auto">
+      <h1 class="text-5xl font-bold mb-3">Welcome To Our School</h1>
+      <p class="mb-4">Excellence in education and leadership development.</p>
+      <div class="flex-col md:flex-row flex items-center justify-center gap-6 uppercase px-10">
+        <a href="#" class="button2">Enroll Now</a>
+         <a href="#" class="border-[1px] border-primaryGreen hover:bg-darkGreen hover:border-darkGreen p-[0.7em] text-[18px] font-semibold">Get in touch</a>
+    </div>
+      </div>
+     
+  </div>
+  </div>
 </div>
- </div>
- </section>
+</section>
 
  <!-- About Section -->
  <section class="about-section home-about py-12">
   <div class="w-[98%] mx-auto ">
     <div class="welcome-section">
-      <h2 class="text-primaryGreen text-center text-5xl px-2 font-bold leading-tight tracking-wide">Welcome to <br>Rio Tinto Zhombe High School.</h2>
+      <h2 class="text-primaryGreen text-center text-3xl md:text-5xl px-2 font-bold leading-tight tracking-wide">Welcome to <br>Rio Tinto Zhombe High School.</h2>
     </div>
     <p class="text-xl max-w-6xl mx-auto px-7 text-center font-poppins-light py-5 leading-tight tracking-wide text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum dolores, ducimus, odio, laboriosam vel consequuntur aspernatur eaque consectetur molestiae saepe ea mollitia. A consequatur architecto dolores, necessitatibus iure nam ut quaerat quia molestiae delectus. Quia dolore maiores illum quas dolorem eligendi similique quod, minima ab illo non id iusto! Maiores, amet iure molestiae aliquam hic tempore saepe non, provident veniam unde ipsa aut?</p>
   </div>

@@ -9,11 +9,12 @@ export default defineConfig({
     rollupOptions: {
       input: {
        main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'about-us.html'),
+        about: resolve(__dirname, 'about.html'),
         staff: resolve(__dirname, 'our-staff.html'), 
         academics: resolve(__dirname, 'academics.html'),
         admissions: resolve(__dirname, 'admissions.html'),
         rosa: resolve(__dirname, 'rosa.html'),
+        upcomingEvents: resolve(__dirname, 'upcoming-events.html'),
         news: resolve(__dirname, 'news.html'),
         gallery: resolve(__dirname, 'gallery.html'), 
         contact: resolve(__dirname, 'contact.html'),
