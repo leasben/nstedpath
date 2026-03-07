@@ -3,16 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <title>Gallery | Rio Tinto Zhombe High School</title>
-    <script type="module" crossorigin src="/assets/main-_hTTwBUk.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-C3atYytw.css">
+    <title>Our Staff | Rio Tinto Zhombe High School</title>
   </head>
    <!-- BACK TO TOP -->
    <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
   <body>
-  <!-- NAV BAR -->
+ <!-- NAV BAR -->
   <section class="main-menu">
     <nav class="navbar">
     <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
@@ -67,75 +66,100 @@
     <div class="website-banner relative">
       <picture>
         <!-- Use the same image and adjust the height at different breakpoints -->
-        <img src="images/admissions-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+        <img src="images/our-staff.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
       </picture>
       <!-- Darker Overlay Background -->
-      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <div class="absolute inset-0 bg-black/60"></div> <!-- Darker overlay -->
       <!-- Text Content -->
       <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
-        <h1 class="text-white text-3xl md:text-5xl font-bold"> School Life in Pictures</h1>
-        <button class="sharedButton web-button my-6">Apply for Admission</button>
+        <h1 class="text-white text-3xl md:text-5xl font-bold"> Our Staff Members</h1>
+        <button class="sharedButton web-button my-6">get in touch</button>
       </div>
     </div>
   </section>
   
-<!-- Admissions Introduction -->
-<section class="py-5 bg-white">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-5xl font-bold text-[#166534] mb-6">
-      Life Beyond the Classroom
-    </h2>
-    <div class="w-24 h-1 bg-[#f2c300] mx-auto mb-8"></div>
-    <p class="text-lg text-gray-600 max-w-6xl font-poppins-light mx-auto leading-relaxed">
-      At Rio Tinto Zhome High School, we nurture future leaders and innovators, building confident students ready for tomorrow.
-    </p>
-  </div>
-</section>
+ <!-- EVENT CONTENT SECTION -->
+<section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6">
 
-<!-- GALLERY IMAGES -->
-<section class="py-10 bg-white">
-  <div class="px-6">
+    <!-- Event Intro + Meta -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- LEFT: Main Description -->
+      <div class="lg:col-span-2">
 
-      <!-- Image Item -->
-      <div class="overflow-hidden rounded-xl shadow-lg group cursor-pointer h-80">
-        <img src="images/gallery-1.jpg" 
-             class="w-full h-full object-cover rounded-xl transition duration-700 group-hover:scale-110">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-6">
+          About This Event
+        </h2>
+
+        <div class="space-y-6 text-gray-700 leading-relaxed text-lg">
+          <p>
+            Join us for an exciting and engaging school event designed to
+            bring together students, parents, and staff in celebration of
+            achievement and community spirit.
+          </p>
+
+          <p>
+            This event will feature various activities, interactive sessions,
+            and opportunities for parents to connect with teachers and
+            administrators. We look forward to your participation.
+          </p>
+
+          <p>
+            Additional information regarding schedules and participation
+            requirements will be shared closer to the event date.
+          </p>
+        </div>
+
       </div>
 
-      <div class="overflow-hidden rounded-xl shadow-lg group cursor-pointer h-80">
-        <img src="images/gallery-2.jpg" 
-             class="w-full h-full object-cover rounded-xl transition duration-700 group-hover:scale-110">
+      <!-- RIGHT: Event Info Card -->
+      <div class="lg:col-span-1">
+        <div class="bg-gray-50 border border-gray-200 rounded-xl shadow-sm p-8">
+
+          <h3 class="text-2xl font-semibold text-gray-800 mb-6">
+            Event Details
+          </h3>
+
+          <div class="space-y-4 text-gray-700">
+
+            <div>
+              <p class="text-sm text-gray-500">Date</p>
+              <p class="font-medium">15 March 2026</p>
+            </div>
+
+            <div>
+              <p class="text-sm text-gray-500">Time</p>
+              <p class="font-medium">08:00 AM – 3:00 PM</p>
+            </div>
+
+            <div>
+              <p class="text-sm text-gray-500">Location</p>
+              <p class="font-medium">School Main Grounds</p>
+            </div>
+
+            <div>
+              <p class="text-sm text-gray-500">Category</p>
+              <p class="font-medium">Academic / Sports / Cultural</p>
+            </div>
+
+          </div>
+
+          <!-- Optional Button -->
+          <div class="mt-8">
+            <button class="w-[200px] px-4 bg-primaryGreen text-white py-3 rounded-lg font-medium hover:opacity-90 transition uppercase">
+              Contact School
+            </button>
+          </div>
+
+        </div>
+
       </div>
-
-      <div class="overflow-hidden rounded-xl shadow-lg group cursor-pointer h-80">
-        <img src="images/gallery-3.jpg" 
-             class="w-full h-full object-cover rounded-xl transition duration-700 group-hover:scale-110">
-      </div>
-
-      <div class="overflow-hidden rounded-xl shadow-lg group cursor-pointer h-80">
-        <img src="images/gallery-4.jpg" 
-             class="w-full h-full object-cover rounded-xl transition duration-700 group-hover:scale-110">
-      </div>
-
-      <div class="overflow-hidden rounded-xl shadow-lg group cursor-pointer h-80">
-        <img src="images/gallery-5.jpg" 
-             class="w-full h-full object-cover rounded-xl transition duration-700 group-hover:scale-110">
-      </div>
-
-      <div class="overflow-hidden rounded-xl shadow-lg group cursor-pointer h-80">
-        <img src="images/gallery-6.jpg" 
-             class="w-full h-full object-cover rounded-xl transition duration-700 group-hover:scale-110">
-      </div>
-
-
 
     </div>
 
   </div>
 </section>
-
 
 <!-- TAKE NEXT STEP -->
  <section class="next-step bg-darkGreen">
@@ -162,5 +186,6 @@
 integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
 crossorigin="anonymous">
 </script>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

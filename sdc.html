@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>SDC | Rio Tinto Zhombe High School</title>
+  </head>
+   <!-- BACK TO TOP -->
+   <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
+  <body>
+  <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class="logo py-2">
+           <a href="/">
+               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+      <ul class="flex space-x-11">
+        <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-primaryGreen uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+    <ul class="flex flex-col items-center space-y-4">
+       <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/academics.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold"> School Development Committee</h1>
+        <button class="sharedButton web-button my-6">get in touch</button>
+      </div>
+    </div>
+  </section>
+  
+<!-- SDC PAGE -->
+<!-- SDC HERO -->
+<section class="bg-primaryGreen text-white py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">
+      Building the Future of Our School
+    </h2>
+    <p class="max-w-2xl mx-auto text-lg text-blue-100">
+      The School Development Committee (SDC) works closely with the school 
+      administration to support the growth, governance and development 
+      of the school community.
+    </p>
+  </div>
+</section>
+
+
+<!-- ABOUT SDC -->
+<section class="py-16 sdc">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <div>
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">
+        About the SDC
+      </h2>
+      <p class="text-gray-600 mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, totam laborum hic quasi illum nulla in corporis doloribus nostrum assumenda minus vero? Impedit quis numquam cumque molestias consequuntur fugit pariatur.
+      </p>
+    </div>
+
+    <div>
+      <img src="images/rio.webp"
+        class="rounded-2xl shadow-2xl w-full h-[300px] object-cover">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CHAIRPERSON -->
+<section class="py-16 bg-gray-200">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <div class="bg-white rounded-2xl shadow-lg p-8 md:flex items-center gap-8">
+
+      <img src="images/alumni-1.jpg"
+        class="w-40 h-40 rounded-full object-cover mx-auto md:mx-0">
+
+      <div class="text-center md:text-left mt-6 md:mt-0">
+        <h3 class="text-2xl font-bold text-gray-800">
+          Mr John Doe
+        </h3>
+
+        <p class="text-primaryGreen font-medium mb-4">
+          SDC Chairperson
+        </p>
+
+        <p class="text-gray-600">
+          The Chairperson leads the School Development Committee and
+          ensures effective collaboration between parents, stakeholders
+          and school management in driving school development initiatives.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SDC MEMBERS -->
+<section class="py-16 bg-goldYellow">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-800">
+        SDC Members
+      </h2>
+      <p class="text-gray-600 mt-2">
+        Dedicated parents and stakeholders serving the school community.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <!-- MEMBER -->
+      <div class="bg-gray-50 rounded-2xl p-6 text-center shadow-2xl hover:shadow-lg transition">
+        <img src="images/alumni-1.jpg"
+          class="w-28 h-28 rounded-full mx-auto mb-4 object-cover">
+
+        <h3 class="font-semibold text-gray-800">
+          Mrs Nancy Doe
+        </h3>
+
+        <p class="text-sm text-primaryGreen">
+          Vice Chairperson
+        </p>
+      </div>
+
+      <!-- MEMBER -->
+      <div class="bg-gray-50 rounded-2xl p-6 text-center shadow-2xl hover:shadow-lg transition">
+        <img src="images/alumni-1.jpg"
+          class="w-28 h-28 rounded-full mx-auto mb-4 object-cover">
+
+        <h3 class="font-semibold text-gray-800">
+          Mr Peter Doe
+        </h3>
+
+        <p class="text-sm text-primaryGreen">
+          Treasurer
+        </p>
+      </div>
+
+      <!-- MEMBER -->
+      <div class="bg-gray-50 rounded-2xl p-6 text-center shadow-2xl hover:shadow-lg transition">
+        <img src="images/alumni-1.jpg"
+          class="w-28 h-28 rounded-full mx-auto mb-4 object-cover">
+
+        <h3 class="font-semibold text-gray-800">
+          Mrs John Doe
+        </h3>
+
+        <p class="text-sm text-primaryGreen">
+          Secretary
+        </p>
+      </div>
+
+      <!-- MEMBER -->
+      <div class="bg-gray-50 rounded-2xl p-6 text-center shadow-2xl hover:shadow-lg transition">
+        <img src="images/alumni-1.jpg"
+          class="w-28 h-28 rounded-full mx-auto mb-4 object-cover">
+
+        <h3 class="font-semibold text-gray-800">
+          Mr Dunny Doe
+        </h3>
+
+        <p class="text-sm text-primaryGreen">
+          Committee Member
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- RESPONSIBILITIES -->
+<section class="py-16 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-gray-800">
+        Responsibilities of the SDC
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        ✔ Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, veniam?
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        ✔ Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consectetur!
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        ✔ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, fugiat.
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        ✔ Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, saepe.
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- TAKE NEXT STEP -->
+<section class="next-step bg-darkGreen">
+  <div class="w-[98%] mx-auto">
+    <div class="max-w-6xl px-5 mx-auto py-10">
+
+      <h2 class="text-white text-4xl text-center font-semibold py-6">
+        Partner With Us
+      </h2>
+
+      <p class="text-base font-poppins-light text-center text-white max-w-3xl mx-auto">
+        The School Development Committee works together with parents and the wider
+        community to support the growth and development of Rio Tinto Zhombe High School.
+        Through collaboration and shared responsibility, we continue to strengthen
+        the learning environment for every student.
+      </p>
+
+      <div class="flex items-center justify-center my-7">
+        <button class="enroll-button text-xl font-poppins-medium">
+          Contact the School Office
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+   <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

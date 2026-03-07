@@ -17,6 +17,7 @@ export default defineConfig({
         upcomingEvents: resolve(__dirname, 'upcoming-events.html'),
         news: resolve(__dirname, 'news.html'),
         gallery: resolve(__dirname, 'gallery.html'), 
+        sdc: resolve(__dirname, 'sdc.html'), 
         contact: resolve(__dirname, 'contact.html'),
       },
       output: {
