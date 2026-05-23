@@ -20,7 +20,7 @@
        <!-- LOGO -->
        <div class="logo py-2">
            <a href="/">
-               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+               <img src="images/vite-logo.svg" alt="Logo" width="160" height="160">
            </a>
        </div>
     
@@ -32,7 +32,7 @@
        </btn>
     
      <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
-    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-light text-gold tracking-wide text-sm lg:text-base">
       <ul class="flex space-x-11">
         <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
         <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
@@ -48,7 +48,7 @@
     </div>
     
     <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
-   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-navytext-navyBlue uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-navy text-navyBlue uppercase tracking-wide text-base font-medium py-6 hidden">
     <ul class="flex flex-col items-center space-y-4">
         <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
         <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
@@ -70,16 +70,20 @@
 <div class="carousel" data-flickity='{ "autoPlay": 2000, "wrapAround": true, "pageDots": false, "prevNextButtons": true, "contain": true }'>
 
  <div class="carousel-cell relative w-full h-[380px] md:h-[500px] lg:h-[580px]">
-  <img src="images/desktop-banner.jpg" alt="School banner" loading="lazy"
+  <img src="images/tourism-banner-1.jpg" alt="School banner" loading="lazy"
        class="absolute inset-0 w-full h-full object-cover">
   <div class="absolute inset-0 bg-black/50"></div>
-  <div class="relative z-10 h-full flex items-center justify-center px-6 uppercase">
+  <div class="relative z-10 h-full flex items-center justify-center px-8 uppercase">
     <div class="text-white max-w-6xl text-center mx-auto">
-      <h1 class="text-5xl font-bold mb-3">Welcome To Our School</h1>
-      <p class="mb-4">Excellence in education and leadership development.</p>
+      <h1 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white mb-3">Global Tourism. Strategic Impact.</h1>
+      <p class="mb-4">Five interconnected engines driving visibility, development, and sustainable demand.</p>
       <div class="flex-col md:flex-row flex items-center justify-center gap-6 uppercase px-10">
-        <a href="#" class="button2">Apply Now</a>
-         <a href="#" class="border-[1px] border-navytext-navyBlue hover:bg-darkGreen hover:border-darkGreen p-[0.7em] text-[18px] font-semibold">Learn More</a>
+          <a href="#" class="w-full sm:w-auto bg-gold text-navyBlue hover:bg-white transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 shadow-lg shadow-gold/10">
+                Networking
+            </a>
+          <a href="#" class="w-full sm:w-auto border border-white text-white hover:border-gold hover:text-gold transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4">
+                Resources
+            </a>
     </div>
       </div>
      
@@ -88,16 +92,21 @@
   <!-- slider-2 -->
  
 <div class="carousel-cell relative w-full h-[380px] md:h-[500px] lg:h-[580px]">
-  <img src="images/desktop-banner-2.jpg" alt="School banner" loading="lazy"
+  <img src="images/tourism-banner-2.jpg" alt="School banner" loading="lazy"
        class="absolute inset-0 w-full h-full object-cover">
   <div class="absolute inset-0 bg-black/50"></div>
-  <div class="relative z-10 h-full flex items-center justify-center px-6 uppercase">
+  <div class="relative z-10 h-full flex items-center justify-center px-8 uppercase">
     <div class="text-white max-w-6xl text-center mx-auto">
-      <h1 class="text-5xl font-bold mb-3">Welcome To Our School</h1>
-      <p class="mb-4">Excellence in education and leadership development.</p>
+      <h1 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white mb-3">Where Destinations Become Global Forces</h1>
+      <p class="mb-4">Building visibility, investment, and demand through intelligent tourism systems.</p>
       <div class="flex-col md:flex-row flex items-center justify-center gap-6 uppercase px-10">
-        <a href="#" class="button2">Enroll Now</a>
-         <a href="#" class="border-[1px] border-navytext-navyBlue hover:bg-darkGreen hover:border-darkGreen p-[0.7em] text-[18px] font-semibold">Get in touch</a>
+        <a href="#" class="w-full sm:w-auto border border-white text-white hover:border-gold hover:text-gold transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4">
+                get in touch
+            </a>
+            <a href="#" class="w-full sm:w-auto bg-navyBlue text-white hover:bg-white hover:text-gold transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 shadow-lg shadow-gold/10">
+                Networking
+            </a>
+         
     </div>
       </div>
      
@@ -152,48 +161,58 @@
 </section>
 
    <!-- GLOBAL DESTINATION -->
-    <section class="py-24 bg-gray-300">
+<section class="py-20 bg-gray-300">
     <div class="max-w-6xl mx-auto px-6">
+
+        <!-- Heading -->
         <div class="text-center mb-16">
-            <h2 class="text-2xl md:text-4xl font-serif text-gold italic">
+            <h2 class="text-2xl md:text-4xl font-serif italic text-gold">
                 "The Engines of Global Destination Growth."
             </h2>
         </div>
-       
+
+        <!-- Content -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
-            <div class="text-left space-y-6">
-                <p class="text-black font-light leading-relaxed text-sm md:text-base">
-                    With programs spanning North America, Europe, Asia, Africa, and South America, we help destinations, industries, and people reach wider audiences, create stronger demand, and shape lasting economic pathways through tourism-led growth.
+
+            <!-- Text -->
+            <div class="space-y-6">
+                <p class="text-black text-sm md:text-base leading-relaxed">
+                    With programs spanning North America, Europe, Asia, Africa,
+                    and South America, we help destinations, industries, and
+                    people reach wider audiences, create stronger demand, and
+                    shape lasting economic pathways through tourism-led growth.
                 </p>
 
-                <div class="w-16 h-[1px] bg-gold/50"></div>
+                <div class="w-16 h-px bg-gold/50"></div>
 
-                <p class="text-black text-xs uppercase tracking-widest">
+                <p class="text-black text-xs uppercase tracking-[0.2em]">
                     Global Reach · Strategic Growth · Sustainable Impact
                 </p>
             </div>
 
-            <div class="relative group overflow-hidden">
-                <img 
-                    src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
-                    class="w-full h-[320px] md:h-[400px] object-cover opacity-80 group-hover:scale-105 transition duration-700">
+            <!-- Image -->
+            <div class="relative overflow-hidden shadow-2xl mb-10">
+                <img src="images/global-destination-banner.jpg" alt="Global destination landscape"
+                    class="w-full h-[320px] md:h-[400px] object-cover">
 
-                <!-- overlay -->
-                <div class="absolute inset-0 bg-gradient-to-t from-navyBlue via-transparent to-transparent"></div>
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-gradient-to-t from-navyBlue/70 to-transparent"></div>
 
-                <!-- gold accent corner -->
+                <!-- Corner Accent -->
                 <div class="absolute bottom-0 left-0 w-16 h-16 border-l-2 border-b-2 border-gold"></div>
             </div>
 
         </div>
-
+         <a href="#" class="w-full sm:w-auto bg-navyBlue text-white hover:bg-white hover:text-gold transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 mt-20 shadow-lg shadow-gold/10">
+                learn more
+            </a>
     </div>
 </section>
 
     <!-- SELF REINFORCING ECOSYSTEM -->
     <section class="py-20 bg-navyBlue relative">
         <div class="max-w-6xl mx-auto px-6">
-            <div class="text-center space-y-4 mb-16">
+            <div class="space-y-4 mb-16">
                 <span class="text-xs font-semibold tracking-[0.3em] uppercase text-gold">The Operational Framework</span>
                 <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white">The Engines of Global Destination Growth.</h2>
             </div>
@@ -243,14 +262,14 @@
 
 
 <!-- FIVE PILLARS -->
-    <section class="py-24 bg-[#050B1A]">
-        <div class="max-w-7xl mx-auto px-6">
+    <section class="py-20 fivePillars">
+        <div class="max-w-6xl mx-auto px-6">
             <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6 mb-16">
                 <div class="space-y-4">
                     <span class="text-xs font-semibold tracking-[0.3em] uppercase text-gold">Engine Application Suite</span>
-                    <h2 class="text-3xl md:text-4xl font-serif font-bold">Our Five Pillars of Power</h2>
+                    <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white">Our Five Pillars of Power</h2>
                 </div>
-                <p class="text-white/60 font-light max-w-md text-sm leading-relaxed">
+                <p class="text-white/70 font-sans max-w-md text-sm leading-relaxed ">
                     Our ecosystem is powered by five integrated applications that transform raw potential into proven global demand.
                 </p>
             </div>
@@ -258,61 +277,73 @@
             <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
                 <div class="bg-navyBlue p-6 border-t-2 border-gold/30 space-y-4">
                     <h4 class="text-gold font-mono text-xs font-bold">01 / THE NERVOUS SYSTEM</h4>
-                    <h3 class="text-lg font-serif font-bold">The NSTED Pulse</h3>
+                    <h3 class="text-lg font-serif text-gold font-bold">The NSTED Pulse</h3>
                     <p class="text-xs text-white/60 font-light leading-relaxed">
                         Our diagnostic engine scores destinations across 8 strategic pillars and 40 variables, delivering a real-time Vitality Rating and a 36-month roadmap grounded in evidence.
                     </p>
                 </div>
                 <div class="bg-navyBlue p-6 border-t-2 border-gold/30 space-y-4">
                     <h4 class="text-gold font-mono text-xs font-bold">02 / COGNITIVE LAYER</h4>
-                    <h3 class="text-lg font-serif font-bold">BINDU AI</h3>
+                    <h3 class="text-lg text-gold font-serif font-bold">BINDU AI</h3>
                     <p class="text-xs text-white/60 font-light leading-relaxed">
                         A sovereign intelligence network that synthesizes market, economic, and aviation data into investor-ready propositions, enabling leaders to allocate capital with conviction.
                     </p>
                 </div>
                 <div class="bg-navyBlue p-6 border-t-2 border-gold/30 space-y-4">
                     <h4 class="text-gold font-mono text-xs font-bold">03 / DEMAND ENGINE</h4>
-                    <h3 class="text-lg font-serif font-bold">NSTEDConnect</h3>
+                    <h3 class="text-lg text-gold font-serif font-bold">NSTEDConnect</h3>
                     <p class="text-xs text-white/60 font-light leading-relaxed">
                         A self-service marketplace replacing agency friction. Destinations configure live quotes for Destination Marketing, Tourism Distribution, and Social Strategy in a single click.
                     </p>
                 </div>
                 <div class="bg-navyBlue p-6 border-t-2 border-gold/30 space-y-4">
                     <h4 class="text-gold font-mono text-xs font-bold">04 / CONNECTIVE TISSUE</h4>
-                    <h3 class="text-lg font-serif font-bold">MICE Checkpoint</h3>
+                    <h3 class="text-lg text-gold font-serif font-bold">MICE Checkpoint</h3>
                     <p class="text-xs text-white/60 font-light leading-relaxed">
                         A specialized hub for the Meetings, Incentives, Conferences, and Exhibitions industry—proving ROI through real-time analytics for delegates, hosts, and sponsors.
                     </p>
                 </div>
                 <div class="bg-navyBlue p-6 border-t-2 border-gold/30 space-y-4">
                     <h4 class="text-gold font-mono text-xs font-bold">05 / CONTINENTAL ENGINE</h4>
-                    <h3 class="text-lg font-serif font-bold">ASTDN</h3>
+                    <h3 class="text-lg text-gold font-serif font-bold">ASTDN</h3>
                     <p class="text-xs text-white/60 font-light leading-relaxed">
                         NSTEDPath's dedicated Africa sport tourism vertical—converting Africa's sport tourism opportunity into income through events, partnerships, and development mandates across all 54 African nations.
                     </p>
                 </div>
             </div>
+            <!-- CTA Buttons -->
+<div class="flex flex-col sm:flex-row gap-4 mt-16">
+    
+    <a href="/promotion.html" class="inline-flex items-center justify-center px-8 py-4 bg-gold text-navyBlue font-semibold tracking-wide uppercase text-sm hover:bg-white transition-all duration-300">
+        Explore Promotion
+    </a>
+
+    <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 border border-gold text-gold font-semibold tracking-wide uppercase text-sm hover:bg-gold hover:text-navyBlue transition-all duration-300">
+        Contact Us
+    </a>
+
+</div>
         </div>
     </section>
 
     <!-- NETSED PULSE -->
-    <section class="bg-white py-20 px-6">
-  <div class="max-w-7xl mx-auto">
+    <section class="bg-white py-20">
+  <div class="max-w-6xl mx-auto px-6">
 
     <!-- Heading -->
-    <h1 class="text-5xl md:text-6xl font-serif font-bold text-[#4a3a32] mb-8">
+    <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue mb-8">
       The NSTED Pulse
-    </h1>
+    </h2>
 
     <!-- Tagline -->
-    <p class="italic text-2xl text-[#5b4a41] mb-10">
+    <p class="italic text-black font-light leading-relaxed text-sm md:text-base mb-4">
       "Intelligence that builds. Exposure that converts. Development that lasts."
     </p>
 
     <!-- Intro -->
-    <p class="text-xl leading-relaxed text-[#5c514b] max-w-6xl mb-24">
-      Tourism's first commissioned, evidence-based, 8-Pillar destination market
-      intelligence system.
+    <p class="text-black font-light leading-relaxed text-sm md:text-base mb-12">
+      Tourism's first commissioned, evidence-based, 8-Pillar destination market intelligence system. When the NSTED Pulse is deployed, the market sees
+stronger destinations rise: higher-scoring places attract more investment, more visitors, and more trade attention.
     </p>
 
     <!-- Timeline -->
@@ -332,11 +363,11 @@
             </span>
           </div>
 
-          <h3 class="text-3xl font-serif font-bold text-[#4a3a32] mb-3">
+          <h3 class="text-3xl font-serif font-bold text-navyBlue mb-3">
             Synthesis
           </h3>
 
-          <p class="text-lg leading-relaxed text-[#5c514b]">
+          <p class="text-base leading-relaxed text-black">
             Ingest real-world market signals
           </p>
         </div>
@@ -349,11 +380,11 @@
             </span>
           </div>
 
-          <h3 class="text-3xl font-serif font-bold text-[#4a3a32] mb-3">
+          <h3 class="text-3xl font-serif font-bold text-navyBlue mb-3">
             Score
           </h3>
 
-          <p class="text-lg leading-relaxed text-[#5c514b]">
+          <p class="text-base leading-relaxed text-black">
             Benchmark destination competitiveness
           </p>
         </div>
@@ -366,11 +397,11 @@
             </span>
           </div>
 
-          <h3 class="text-3xl font-serif font-bold text-[#4a3a32] mb-3">
+          <h3 class="text-3xl font-serif font-bold text-navyBlue mb-3">
             Formulation
           </h3>
 
-          <p class="text-lg leading-relaxed text-[#5c514b]">
+          <p class="text-base leading-relaxed text-black">
             Shape positioning and action
           </p>
         </div>
@@ -383,11 +414,11 @@
             </span>
           </div>
 
-          <h3 class="text-3xl font-serif font-bold text-[#4a3a32] mb-3">
+          <h3 class="text-3xl font-serif font-bold text-navyBlue mb-3">
             Vigilance
           </h3>
 
-          <p class="text-lg leading-relaxed text-[#5c514b]">
+          <p class="text-base leading-relaxed text-black">
             Track demand shifts and risk
           </p>
         </div>
@@ -400,11 +431,11 @@
             </span>
           </div>
 
-          <h3 class="text-3xl font-serif font-bold text-[#4a3a32] mb-3">
+          <h3 class="text-3xl font-serif font-bold text-navyBlue mb-3">
             Cohesion
           </h3>
 
-          <p class="text-lg leading-relaxed text-[#5c514b]">
+          <p class="text-base leading-relaxed text-black">
             Align partners around winning signals
           </p>
         </div>
@@ -413,7 +444,7 @@
     </div>
 
     <!-- Bottom Text -->
-    <p class="text-xl leading-relaxed text-navyBlue mt-24">
+    <p class="text-black font-light leading-relaxed text-sm md:text-base mt-12">
       The 8 Pillars — Economics, Identity, Access, Demand, Experience,
       Sustainability, Measurement, and Replication — each produce a composite
       benchmark revealing destination health and competitive readiness.
@@ -421,8 +452,7 @@
 
     <a 
   href="/nstedpulse.html"
-  class="inline-flex items-center gap-2 mt-14 px-8 py-4 bg-gold text-white text-lg font-medium rounded-full hover:bg-navyBlue transition-all duration-300"
->
+  class="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-gold text-white text-sm font-semibold tracking-wide uppercase hover:bg-navyBlue transition-all duration-300">
   Explore The NSTED Pulse
   <span>→</span>
 </a>
@@ -431,12 +461,12 @@
 </section>
 
     <!-- TARGET MARKET -->
-    <section class="py-24 bg-gradient-to-b from-[#050B1A] to-navyBlue">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center space-y-4 mb-16">
+    <section class="py-20 bg-gradient-to-b from-[#050B1A] to-navyBlue">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="space-y-4 mb-16">
                 <span class="text-xs font-semibold tracking-[0.3em] uppercase text-gold">Target Markets</span>
-                <h2 class="text-3xl md:text-4xl font-serif font-bold">One Integrated Ecosystem. Five Strategic Sectors.</h2>
-                <p class="text-white/60 max-w-2xl mx-auto text-sm font-light">
+                <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white">Five Sectors. Three Engines. One Integrated Ecosystem.</h2>
+                <p class="text-white/70 max-w-3xl text-lg font-light">
                     The NSTEDPath ecosystem is precision-deployed across five high-impact sectors, each a critical pillar of the global sustainable tourism economy.
                 </p>
             </div>
@@ -444,96 +474,139 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="p-6 border border-white/5 bg-[#060e22] space-y-4">
                     <h4 class="text-gold font-serif text-lg font-semibold">Travel, Tourism & Hospitality</h4>
-                    <p class="text-xs text-white/60 font-light leading-relaxed">
+                    <p class="text-sm text-white/70 font-light leading-relaxed">
                         Connecting tour operators, DMOs, and travel trade through world-class events, proprietary research, and global investment facilitation.
                     </p>
                 </div>
                 <div class="p-6 border border-white/5 bg-[#060e22] space-y-4">
                     <h4 class="text-gold font-serif text-lg font-semibold">Destination Development</h4>
-                    <p class="text-xs text-white/60 font-light leading-relaxed">
+                    <p class="text-sm text-white/70 font-light leading-relaxed">
                         Powered by BINDU AI, MIRCU, EINDU, and DDSN—transforming geographic assets into bankable, world-class destinations through master planning and investment frameworks.
                     </p>
                 </div>
                 <div class="p-6 border border-white/5 bg-[#060e22] space-y-4">
                     <h4 class="text-gold font-serif text-lg font-semibold">Aviation & Connectivity</h4>
-                    <p class="text-xs text-white/60 font-light leading-relaxed">
+                    <p class="text-sm text-white/70 font-light leading-relaxed">
                         AIRCU harmonizes air access strategy with destination master planning to fill gaps and drive high-yield visitor flows.
                     </p>
                 </div>
                 <div class="p-6 border border-white/5 bg-[#060e22] space-y-4">
                     <h4 class="text-gold font-serif text-lg font-semibold">Promotion & Brand Equity</h4>
-                    <p class="text-xs text-white/60 font-light leading-relaxed">
+                    <p class="text-sm text-white/70 font-light leading-relaxed">
                         Building destination identity, global awareness, and commercial performance through synchronized, multi-channel marketing creating a clear transaction layer marketplace.
                     </p>
                 </div>
                 <div class="p-6 border border-white/5 bg-[#060e22] lg:col-span-1 space-y-4">
                     <h4 class="text-gold font-serif text-lg font-semibold">Sustainability & Impact</h4>
-                    <p class="text-xs text-white/60 font-light leading-relaxed">
+                    <p class="text-sm text-white/70 font-light leading-relaxed">
                         Embedded natively across all three main engines—ensuring every metric, strategy, and asset investment is evaluated against its environmental legacy.
                     </p>
                 </div>
             </div>
+             <a href="/nstedpulse.html" class="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-gold text-white text-sm font-semibold tracking-wide uppercase hover:bg-blue-950 transition-all duration-300">
+  Explore Resources
+  <span>→</span>
+</a>
         </div>
     </section>
 
 
 <!-- FOUNDATION AND PRINCIPLES -->
-    <section class="py-24 bg-[#050B1A] border-t border-white/5">
-        <div class="max-w-5xl mx-auto px-6 text-center space-y-12">
-            <div class="space-y-4">
-                <span class="text-xs font-semibold tracking-[0.3em] uppercase text-gold">The Foundation Principle</span>
-                <h2 class="text-3xl md:text-4xl font-serif font-bold">Our Commitment to Sustainability</h2>
-                <p class="text-white/70 italic text-base max-w-2xl mx-auto font-light">
-                    "Sustainability isn't a checkbox at NSTEDPath — it's the foundation of everything we build."
+<section class="py-20 foundation-principle border-t border-white/5 bg-white">
+    <div class="max-w-8xl mx-auto px-10">
+
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <!-- LEFT CONTENT -->
+            <div class="space-y-10">
+
+                <!-- Heading -->
+                <div class="space-y-4">
+                    <span class="text-xs font-semibold tracking-[0.3em] uppercase text-black">
+                        The Foundation Principle
+                    </span>
+
+                    <h2 class="text-3xl md:text-5xl font-serif font-semibold leading-tight text-navyBlue">
+                        Our Commitment to Sustainability
+                    </h2>
+
+                    <p class="text-gold italic text-lg max-w-2xl">
+                        "Sustainability isn't a checkbox at NSTEDPath — it's the
+                        foundation of everything we build."
+                    </p>
+                </div>
+
+                <!-- Intro -->
+                <p class="text-base text-navyBlue/80 leading-relaxed max-w-2xl">
+                    The most competitive destinations of the future will protect
+                    their natural assets, empower their communities, and govern
+                    their tourism sectors with absolute integrity.
                 </p>
+
+                <!-- Principles -->
+                <div class="grid sm:grid-cols-3 gap-6 pt-4">
+
+                    <div class="border-l-2 border-gold pl-4 space-y-3">
+                        <h4 class="font-serif font-bold text-gold text-lg">
+                            Environmental Stewardship
+                        </h4>
+
+                        <p class="text-sm text-navyBlue/80 leading-relaxed">
+                            Protecting the natural assets that make global
+                            destinations beautiful and worth visiting.
+                        </p>
+                    </div>
+
+                    <div class="border-l-2 border-gold pl-4 space-y-3">
+                        <h4 class="font-serif font-bold text-gold text-lg">
+                            Community Empowerment
+                        </h4>
+
+                        <p class="text-sm text-navyBlue/80 leading-relaxed">
+                            Ensuring destination growth benefits local people,
+                            not just outside investors.
+                        </p>
+                    </div>
+
+                    <div class="border-l-2 border-gold pl-4 space-y-3">
+                        <h4 class="font-serif font-bold text-gold text-lg">
+                            Governance & Accountability
+                        </h4>
+
+                        <p class="text-sm text-navyBlue/80 leading-relaxed">
+                            Building transparent frameworks that support
+                            long-term sustainable tourism.
+                        </p>
+                    </div>
+
+                </div>
             </div>
 
-            <p class="text-sm text-white/60 max-w-3xl mx-auto font-light leading-relaxed">
-                The most competitive destinations of the future will protect their natural assets, empower their communities, and govern their tourism sectors with absolute integrity.
-            </p>
+            <!-- RIGHT IMAGE -->
+            <div class="relative overflow-hidden rounded-sm">
+                <img src="images/sustainability-banner.jpg" alt="Sustainable tourism destination" class="w-full h-[500px] object-cover">
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left pt-6">
-                <div class="space-y-2 border-l border-gold/40 pl-4">
-                    <h4 class="font-serif font-bold text-white text-base">Environmental Stewardship</h4>
-                    <p class="text-xs text-white/50 font-light">Protecting the natural assets that make global destinations beautiful and worth visiting.</p>
-                </div>
-                <div class="space-y-2 border-l border-gold/40 pl-4">
-                    <h4 class="font-serif font-bold text-white text-base">Community Empowerment</h4>
-                    <p class="text-xs text-white/50 font-light">Ensuring destination economic growth explicitly benefits local people, not just outside investors.</p>
-                </div>
-                <div class="space-y-2 border-l border-gold/40 pl-4">
-                    <h4 class="font-serif font-bold text-white text-base">Governance & Accountability</h4>
-                    <p class="text-xs text-white/50 font-light">Building clean, transparent policy frameworks that make long-term sustainable tourism possible.</p>
-                </div>
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-gradient-to-t from-navyBlue/40 to-transparent"></div>
+
+                <!-- Accent -->
+                <div class="absolute bottom-0 left-0 w-24 h-24 border-l-2 border-b-2 border-gold"></div>
             </div>
+
         </div>
-    </section>
 
-
-<!-- NSTEDPATH INVESTMENTS -->
-    <footer class="bg-navyBlue border-t border-gold/10 py-12 text-sm text-white/50">
-        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-            <div class="space-y-2">
-                <p class="font-serif font-bold text-white tracking-widest text-lg">NSTED<span class="text-gold">PATH</span></p>
-                <p class="text-xs font-light">Headquartered in Los Angeles, California — Operating Globally</p>
-            </div>
-            <div class="flex items-center gap-6 text-xs tracking-widest uppercase">
-                <span class="hover:text-gold transition-colors duration-300">#LetsEngageTourism</span>
-                <span class="hover:text-gold transition-colors duration-300">#BuildingNetworks</span>
-            </div>
-            <p class="text-xs font-mono">&copy; 2026 NSTEDPath Investments LLC. All rights reserved.</p>
-        </div>
-    </footer>
+    </div>
+</section>
 
 
 <!-- LATEST NEWS -->
- <section class="bg-gray-50 py-10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+ <section class="bg-white py-20">
+  <div class="max-w-6xl mx-auto px-6">
     
     <!-- Section Header -->
     <div class="flex items-center justify-between mb-10">
-      <h2 class="text-4xl font-bold text-primaryGreen">Latest News</h2>
-      <a href="#" class="text-primaryGreen font-semibold hover:text-blue-800 transition">
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue">Latest News</h2>
+      <a href="#" class="text-navyBlue text-base font-semibold hover:text-gold transition">
         View All →
       </a>
     </div>
@@ -542,8 +615,8 @@
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       
       <!-- Card 1 -->
-      <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
-        <img src="/images/latest-news-1.jpg" 
+      <div class="bg-white rounded-2xl shadow-xl hover:shadow-lg transition overflow-hidden">
+        <img src="/images/blog-1.jpg" 
              alt="News Image"
              class="w-full h-56 object-cover">
 
@@ -555,15 +628,15 @@
           <p class="text-gray-600 mb-4">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit....
           </p>
-          <a href="#" class="text-blue-600 font-semibold hover:text-blue-800 transition">
+          <a href="#" class="text-gold font-semibold hover:text-navyBlue transition">
             Read More →
           </a>
         </div>
       </div>
 
       <!-- Card 2 -->
-      <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
-        <img src="/images/latest-news-2.jpg" 
+      <div class="bg-white rounded-2xl shadow-xl hover:shadow-lg transition overflow-hidden">
+        <img src="/images/blog-2.jpg" 
              alt="News Image"
              class="w-full h-56 object-cover">
 
@@ -575,15 +648,15 @@
           <p class="text-gray-600 mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit....
           </p>
-          <a href="#" class="text-blue-600 font-semibold hover:text-blue-800 transition">
+          <a href="#" class="text-gold font-semibold hover:text-navyBlue transition">
             Read More →
           </a>
         </div>
       </div>
 
       <!-- Card 3 -->
-      <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
-        <img src="/images/latest-news-3.jpg" 
+      <div class="bg-white rounded-2xl shadow-xl hover:shadow-lg transition overflow-hidden">
+        <img src="/images/blog-3.jpg" 
              alt="News Image"
              class="w-full h-56 object-cover">
 
@@ -595,7 +668,7 @@
           <p class="text-gray-600 mb-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit....
           </p>
-          <a href="#" class="text-blue-600 font-semibold hover:text-blue-800 transition">
+          <a href="#" class="text-gold font-semibold hover:text-navyBlue transition">
             Read More →
           </a>
         </div>
@@ -605,24 +678,10 @@
   </div>
 </section>
 
-<!-- TAKE NEXT STEP -->
- <section class="next-step bg-darkGreen">
-  <div class="w-[98%] mx-auto">
-    <div class="max-w-6xl px-5 mx-auto py-10">
-    <h2 class="text-white text-4xl text-center font-semibold py-6">Take the next step</h2>
-    <p class="text-base font-poppins-light text-center text-white">Rio Tinto Zhombe High School is proud of its history for providing students with the skills and capabilities to become active global citizens.
-</p>
-<div class="flex items-center justify-center my-7">
- <button class="enroll-button text-xl font-poppins-medium"> Start your enrollment</button>
-</div>
-</div>
-  </div>
- </section>
-
    <!-- COPYRIGHT FOOTER -->
-<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+<section class="bottom-footer bg-navyBlue text-white h-[50px] flex justify-center items-center">
   <div class="bottom-text">
-    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+    © 2026 NSTED PATH | Designed By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
         
   </div>
 </section>
