@@ -7,11 +7,8 @@
 
 
 :root {
-  --primaryGreen: #1f7a3e;
-  --darkGreen: #166534;
-  --goldYellow: #f2c300;
-  --brickBrown: #8b5a2b;
-  --textcolor: #6B7280;
+  --navyBlue: #0D1B3E;
+  --gold: #D4AF37;
 }
 
 * {
@@ -100,7 +97,7 @@ h6 {
 
 /* BACK TO TOP */
 #backToTop {
-  @apply hidden fixed bottom-[20px] right-[30px] bg-goldYellow text-white border-none rounded-[5px] cursor-pointer z-[100];
+  @apply hidden fixed bottom-[20px] right-[30px] bg-gold text-white border-none rounded-[5px] cursor-pointer z-[100];
 }
 
 /* APPLY NIOW */

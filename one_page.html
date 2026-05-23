@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Rio Tinto Zhombe High School | Contact Us</title>
+  </head>
+   <!-- BACK TO TOP -->
+   <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
+  <body>
+ <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class="logo py-2">
+           <a href="/">
+               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+      <ul class="flex space-x-11">
+        <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li> 
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Rosa</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-primaryGreen uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+    <ul class="flex flex-col items-center space-y-4">
+       <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
+        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+ 
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/contact-us-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold"> Lets Work Together</h1>
+      </div>
+    </div>
+  </section>
+
+<!-- CONTACT US -->
+<!-- 1. Stats -->
+<section class="py-12 bg-blue">
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <div>
+      <h2 class="text-4xl font-bold text-blue-600">100+</h2>
+      <p class="text-lg">Students</p>
+    </div>
+    <div>
+      <h2 class="text-4xl font-bold text-blue-600">100+</h2>
+      <p class="text-lg">Students</p>
+    </div>
+    <div>
+      <h2 class="text-4xl font-bold text-blue-600">100+</h2>
+      <p class="text-lg">Students</p>
+    </div>
+    <div>
+      <h2 class="text-4xl font-bold text-blue-600">100+</h2>
+      <p class="text-lg">Students</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- 2. About -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
+
+    <div class="md:w-1/2">
+      <img src="image.jpg" class="rounded shadow-md">
+    </div>
+
+    <div class="md:w-1/2">
+      <h2 class="text-3xl font-bold mb-4">About Us</h2>
+      <p class="text-lg mb-4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus totam eius omnis! Sequi quam consequuntur neque optio veritatis rem ratione quae delectus voluptas deserunt. Sit odio deleniti a adipisci asperiores!
+      </p>
+
+      <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+        Learn More
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 3. Programs -->
+<section class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 text-center mb-12">
+    <h2 class="text-3xl font-bold">Our Programs</h2>
+    <p class="text-lg mt-2">Explore our comprehensive learning paths.</p>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <img src="image.jpg" class="mb-4 rounded">
+      <h3 class="text-xl font-semibold mb-2">Program</h3>
+      <p class="mb-4">Description</p>
+      <a href="#" class="text-blue-600 font-semibold hover:underline">Learn More →</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 4. Facilities -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 text-center mb-12">
+    <h2 class="text-3xl font-bold">Life at Our School</h2>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition text-center">
+      <img src="image.jpg" class="mb-4 rounded">
+      <h3 class="text-xl font-semibold mb-2">Facility</h3>
+      <p>Description</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 5. Testimonials -->
+<section class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 text-center mb-12">
+    <h2 class="text-3xl font-bold">What Parents Say</h2>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+    <div class="bg-white p-6 rounded-lg shadow text-center">
+      <img src="image.jpg" class="w-16 h-16 rounded-full mx-auto mb-4">
+      <p class="italic mb-4">"Testimonial"</p>
+      <p class="font-semibold">Name, Role</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 6. Gallery -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 text-center mb-12">
+    <h2 class="text-3xl font-bold">Gallery</h2>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="overflow-hidden rounded shadow">
+      <img src="image.jpg" class="w-full h-full object-cover hover:scale-105 transition">
+    </div>
+  </div>
+</section>
+
+
+<!-- 7. CTA -->
+<section class="py-16 bg-blue-600 text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">Ready to Join?</h2>
+  <p class="mb-6">Start your journey today</p>
+
+  <a href="#" class="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold mr-4 hover:bg-gray-100 transition">
+    Apply Now
+  </a>
+
+  <a href="#" class="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+    Contact Us
+  </a>
+</section>
+
+
+<!-- 8. Contact -->
+<section class="py-12 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+    <div class="space-y-2">
+      <p><strong>Phone:</strong> 123456789</p>
+      <p><strong>Email:</strong> info@example.com</p>
+      <p><strong>Address:</strong> Address here</p>
+    </div>
+
+    <div>
+      <!-- Map embed -->
+    </div>
+
+  </div>
+</section>
+
+   <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

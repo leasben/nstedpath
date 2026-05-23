@@ -24,10 +24,8 @@ module.exports = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        primaryGreen: '#1F7A3E',
-        darkGreen: '#166534',
-        goldYellow: '#F2C300',
-        brickBrown: '#8B5A2B',
+        gold: '#D4AF37',
+        navyBlue: '#0D1B3E',
       },
     },
   },
