@@ -91,7 +91,7 @@ h6 {
 }
 
 .logo img {
-  @apply w-[90px] lg:w-[100px];
+  @apply w-[90px] lg:w-[230px];
 }
 
 

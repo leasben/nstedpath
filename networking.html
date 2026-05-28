@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <title>Academics | Rio Tinto Zhombe High School</title>
+    <title>Networking | NSTEDPATH</title>
   </head>
    <!-- BACK TO TOP -->
    <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
@@ -16,9 +16,9 @@
     <nav class="navbar">
     <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
        <!-- LOGO -->
-       <div class="logo py-2">
+       <div class="logo py-6">
            <a href="/">
-               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+               <img src="images/nstedpath_logo.png" alt="Logo" width="160" height="160">
            </a>
        </div>
     
@@ -30,31 +30,33 @@
        </btn>
     
      <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
-    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-light text-gold tracking-wide text-sm lg:text-base">
       <ul class="flex space-x-11">
-        <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
       </ul>
     </div>
     </div>
     
     <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
-   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-primaryGreen uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-navy text-navyBlue uppercase tracking-wide text-base font-medium py-6 hidden">
     <ul class="flex flex-col items-center space-y-4">
-       <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
           </ul>
       
     </div>
@@ -66,329 +68,264 @@
     <div class="website-banner relative">
       <picture>
         <!-- Use the same image and adjust the height at different breakpoints -->
-        <img src="images/academics.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+        <img src="images/networking-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
       </picture>
       <!-- Darker Overlay Background -->
       <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
       <!-- Text Content -->
       <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
-        <h1 class="text-white text-3xl md:text-5xl font-bold"> Excellence in Learning</h1>
-        <button class="sharedButton web-button my-6">Explore Admissions</button>
+        <h1 class="text-white text-3xl md:text-5xl font-bold">The Networking Engine</h1>
+        <a href="#" class="w-full sm:w-auto bg-gold text-navyBlue hover:bg-white transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 my-6 shadow-lg shadow-gold/10">
+                Resources
+            </a>
       </div>
     </div>
   </section>
   
-<!-- ACADEMIC SECTION -->
- <section class="relative academics text-primaryGreen font-bold py-20">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-5xl font-bold mb-6 tracking-tight">
-      Academic Excellence from Form 1 to Form 6
-    </h2>
-    <p class="text-xl text-gray-900 font-poppins-light max-w-3xl mx-auto leading-tight tracking-wide">
-      Providing quality secondary education under the ZIMSEC curriculum,
-      shaping confident, knowledgeable and future-ready learners.
-    </p>
-  </div>
-</section>
 
-<!-- CURRICULUMN OVERVIEW -->
-<section class="py-24 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-6">
-
-    <div class="grid lg:grid-cols-2 gap-16 items-center">
-
-      <!-- LEFT SIDE IMAGE -->
-      <div class="relative order-2 lg:order-1">
-        <div class="absolute -top-6 -right-6 w-48 h-48 bg-blue-100 rounded-full blur-2xl opacity-50"></div>
-
-        <img src="images/academic-curriculumn.jpg"
-          alt="Teacher explaining lesson in classroom" class="rounded-3xl shadow-2xl relative object-cover z-10"/>
-        <div class="absolute -bottom-6 -left-6 w-40 h-40 bg-indigo-100 rounded-full blur-2xl opacity-50"></div>
-      </div>
-
-      <!-- RIGHT SIDE CONTENT -->
-      <div class="order-1 lg:order-2">
-        <h2 class="text-4xl font-bold text-primaryGreen mb-6 leading-tight">
-          Curriculum Overview
-        </h2>
-
-        <p class="text-lg text-gray-900 mb-6 font-poppins-light leading-relaxed">
-          Our academic programme follows the Zimbabwe School Examinations Council (ZIMSEC)
-          curriculum, providing a structured and nationally recognized pathway from 
-          Form 1 to Form 6.
-        </p>
-
-        <p class="text-gray-600 mb-10 leading-relaxed">
-          We combine theoretical knowledge with practical application, continuous 
-          assessment, and strong examination preparation to ensure outstanding 
-          academic performance.
-        </p>
-
-        <!-- FEATURE LIST -->
-        <div class="space-y-4">
-          <div class="flex items-start gap-4">
-            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
-            <p class="text-gray-700">Continuous Assessment Learning Activities</p>
-          </div>
-
-          <div class="flex items-start gap-4">
-            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
-            <p class="text-gray-700">Strong Examination Preparation</p>
-          </div>
-
-          <div class="flex items-start gap-4">
-            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
-            <p class="text-gray-700">Balanced Practical & Theoretical Learning</p>
-          </div>
-
-          <div class="flex items-start gap-4">
-            <div class="w-6 h-6 bg-brickBrown text-white flex items-center justify-center rounded-full text-sm">✓</div>
-            <p class="text-gray-700">Qualified and Experienced Educators</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ORDINARY LEVEL -->
-<section class="relative py-28 bg-gradient-to-br from-[var(--primaryGreen)] via-[var(--darkGreen)] to-[var(--primaryGreen)] text-white overflow-hidden">
-  
-  <!-- Background Glow Effects -->
-  <div class="absolute top-0 left-0 w-72 h-72 bg-[var(--goldYellow)] opacity-20 rounded-full blur-3xl"></div>
-  <div class="absolute bottom-0 right-0 w-96 h-96 bg-[var(--brickBrown)] opacity-20 rounded-full blur-3xl"></div>
-
-  <div class="relative max-w-7xl mx-auto px-6">
-
-    <!-- Heading -->
-    <div class="text-center mb-20">
-      <h2 class="text-5xl font-extrabold mb-6 tracking-tight">
-        Form 1 – Form 4 Programme
+  <!-- THE NETWORKING ENGINE -->
+  <section class="bg-navyBlue text-white py-20 px-6 border-b-4 border-[#D4AF37]">
+    <div class="max-w-6xl mx-auto px-6">
+      <span class="text-[#D4AF37] font-bold uppercase tracking-wider text-sm bg-white/10 px-6 py-3">
+        NETWORKING ENGINE
+      </span>
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white mt-6">
+       The Primary Revenue Engine
       </h2>
-      <p class="text-lg md:text-xl text-[var(--goldYellow)] max-w-3xl mx-auto">
-        A strong academic foundation built on discipline, critical thinking,
-        and excellence in preparation for ZIMSEC O-Level examinations.
+      <p class="mt-6 text-lg text-white/60 font-sans leading-relaxed">
+        The Networking Engine is the first mover in the NSTEDPath ecosystem — opening doors, convening decision-makers, and creating the commercial relationships that power the entire flywheel. We build the rooms where governments meet capital, deals are structured, and tourism economies find their voice on the global stage.
       </p>
-    </div>
-
-    <!-- Content Grid -->
-    <div class="grid lg:grid-cols-2 gap-16 items-center">
-
-      <!-- LEFT CONTENT -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-6 text-[var(--goldYellow)]">
-          Foundation & O-Level Preparation
-        </h3>
-
-        <p class="text-[var(--goldYellow)] leading-relaxed mb-8">
-          From Form 1 to Form 4, learners develop core academic competencies,
-          analytical skills, and subject mastery required for outstanding
-          O-Level performance.
-        </p>
-
-        <!-- Highlight Stats -->
-        <div class="grid grid-cols-2 gap-6">
-          <div class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/20">
-            <h4 class="text-3xl font-bold text-[var(--goldYellow)]">8+</h4>
-            <p class="text-sm text-[var(--goldYellow)] mt-2">Subjects Offered</p>
-          </div>
-
-          <div class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl border border-white/20">
-            <h4 class="text-3xl font-bold text-[var(--goldYellow)]">95%</h4>
-            <p class="text-sm text-[var(--goldYellow)] mt-2">O-Level Pass Rate</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- RIGHT SUBJECT CARDS -->
-      <div class="grid sm:grid-cols-2 gap-6">
-
-        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
-          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Core Subjects</h4>
-          <p class="text-[var(--goldYellow)] text-sm">
-            English, Mathematics, Integrated Science, Heritage Studies.
-          </p>
-        </div>
-
-        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
-          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Sciences</h4>
-          <p class="text-[var(--goldYellow)] text-sm">
-            Biology, Chemistry, Physics.
-          </p>
-        </div>
-
-        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
-          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Commercials</h4>
-          <p class="text-[var(--goldYellow)] text-sm">
-            Accounting, Business Studies, Economics.
-          </p>
-        </div>
-
-        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hover:scale-105 transition duration-300">
-          <h4 class="font-semibold text-lg mb-2 text-[var(--goldYellow)]">Practical & Technical</h4>
-          <p class="text-[var(--goldYellow)] text-sm">
-            Agriculture, Computer Science, Technical Graphics.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- ADVANCED LEVEL -->
-<section class="relative py-32 bg-black text-white overflow-hidden">
-
-  <!-- Background Gradient Overlay (No Green) -->
-  <div class="absolute inset-0 bg-gradient-to-br from-[var(--brickBrown)] via-black to-[var(--goldYellow)] opacity-90"></div>
-
-  <!-- Decorative Glow in Gold and Brown -->
-  <div class="absolute top-20 left-10 w-80 h-80 bg-[var(--goldYellow)] opacity-20 rounded-full blur-3xl"></div>
-  <div class="absolute bottom-10 right-10 w-96 h-96 bg-[var(--brickBrown)] opacity-20 rounded-full blur-3xl"></div>
-
-  <div class="relative max-w-7xl mx-auto px-6">
-
-    <!-- Heading -->
-    <div class="text-center mb-20">
-      <h2 class="text-5xl font-extrabold tracking-tight mb-6">
-        Advanced Level (Form 5 – 6)
-      </h2>
-      <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
-        Specialised academic pathways designed to prepare learners for
-        university, leadership, and professional excellence.
-      </p>
-    </div>
-
-    <div class="grid lg:grid-cols-2 gap-20 items-center">
-
-      <!-- LEFT IMAGE -->
-      <div class="relative group">
-        <img 
-          src="images/adavanced-level.jpg"
-          alt="A-Level students studying"
-          class="rounded-3xl shadow-2xl transform group-hover:scale-105 transition duration-500 object-cover"
-        />
-        <div class="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
-      </div>
-
-      <!-- RIGHT STREAM CARDS -->
-      <div class="space-y-8">
-
-        <!-- SCIENCES -->
-        <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl hover:bg-[var(--goldYellow)]/20 transition duration-500">
-          <h3 class="text-2xl font-bold mb-4 text-[var(--goldYellow)]">Sciences</h3>
-          <p class="text-gray-200">
-            Mathematics, Physics, Chemistry, Biology — equipping learners
-            for careers in engineering, medicine, and technology.
-          </p>
-        </div>
-
-        <!-- COMMERCIALS -->
-        <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl hover:bg-[var(--brickBrown)]/20 transition duration-500">
-          <h3 class="text-2xl font-bold mb-4 text-[var(--brickBrown)]">Commercials</h3>
-          <p class="text-gray-200">
-            Accounting, Economics, Business Studies — preparing students
-            for leadership in commerce and entrepreneurship.
-          </p>
-        </div>
-
-        <!-- ARTS -->
-        <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl hover:bg-[var(--goldYellow)]/20 transition duration-500">
-          <h3 class="text-2xl font-bold mb-4 text-[var(--goldYellow)]">Arts</h3>
-          <p class="text-gray-200">
-            History, Literature, Sociology, Languages — developing critical
-            thinkers and communicators for global impact.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- TEACHING ACADEMIC EXCELLENCE -->
-<section class="py-24 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    
-    <div class="grid lg:grid-cols-2 gap-16 items-center">
       
-      <!-- LEFT SIDE CONTENT -->
-      <div>
-        <h2 class="text-5xl font-extrabold text-primaryGreen mb-6 leading-tight">
-          Academic Excellence
-        </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-left">
+        <div class="bg-white/5 p-8 rounded-xl border border-white/10 hover:border-[#D4AF37] transition duration-300">
+          <div class="text-[#D4AF37] text-2xl font-bold mb-3">01</div>
+          <h3 class="text-xl font-bold mb-2">Creating Awareness</h3>
+          <p class="text-gray-400 text-sm">Putting destinations on the world's radar through strategic visibility and flagship events.</p>
+        </div>
+        <div class="bg-white/5 p-8 rounded-xl border border-white/10 hover:border-[#D4AF37] transition duration-300">
+          <div class="text-[#D4AF37] text-2xl font-bold mb-3">02</div>
+          <h3 class="text-xl font-bold mb-2">Encouraging Best Practice</h3>
+          <p class="text-gray-400 text-sm">Elevating standards through knowledge sharing, benchmarking, and global thought leadership.</p>
+        </div>
+        <div class="bg-white/5 p-8 rounded-xl border border-white/10 hover:border-[#D4AF37] transition duration-300">
+          <div class="text-[#D4AF37] text-2xl font-bold mb-3">03</div>
+          <h3 class="text-xl font-bold mb-2">Increasing Cooperation</h3>
+          <p class="text-gray-400 text-sm">Building alliances, MOUs, and joint ventures that connect global capital to local opportunity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
-          Our commitment to excellence is reflected in our consistent pass rates,
-          disciplined learning environment, and university-ready graduates.
-          We nurture independent thinkers equipped with knowledge, confidence,
-          and strong moral values.
+  <!-- NETWORKING ENGINES TWO GEARS -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="mb-16">
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue">The Networking Engine's Two Gears</h2>
+      <h4 class="text-xl font-serif font-semibold text-navyBlue tracking-wide mt-2">Built on world-class events and Africa's sport tourism activation.</h4>
+       <p class="text-lg text-gray-400 font-sans leading-relaxed mt-4">
+        The Networking Engine operates through two precision-built Landing Gears — each one distinct in function, but deeply interconnected in purpose. Together, Event Management & Destination Activation and ASTDN form NSTEDPath's most powerful convening and commercial activation force.
         </p>
+    </div>
 
-        <p class="text-gray-600 mb-10 leading-relaxed">
-          Through qualified educators, modern teaching methods, and continuous
-          academic monitoring, we ensure every learner reaches their full potential
-          from Form 1 through Form 6.
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div class="bg-white p-10 rounded-2xl shadow-xl border-t-4 border-[#0D1B3E] relative overflow-hidden">
+        <div class="absolute right-0 top-0 bg-[#0D1B3E] text-white text-xs font-bold px-4 py-1.5 uppercase rounded-bl-lg">Gear 1</div>
+        <h3 class="text-2xl font-extrabold text-[#0D1B3E] mb-4">MICE Checkpoint</h3>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          Strategic gatherings that drive investment, build capacity, and launch global brands. From institutional summits to MICE strategy and experiential activation. Hosts 2 BINDU flagships (THAT'S World Networking Summit & APEX Africa), 2 ASTDN flagships (ASTNI & AESTA), plus conferences, workshops, and capacity building programs.
         </p>
+        <a href="#mice-checkpoint" class="text-[#D4AF37] font-semibold flex items-center hover:text-[#0D1B3E] transition duration-200">
+          Explore MICE Checkpoint Framework &rarr;
+        </a>
+      </div>
 
-        <!-- STATS -->
-        <div class="grid grid-cols-2 gap-6">
-          <div class="bg-indigo-50 p-6 rounded-xl shadow-md">
-            <h3 class="text-3xl font-bold text-darkGreen">95%</h3>
-            <p class="text-gray-600 mt-2">O-Level Pass Rate</p>
-          </div>
+      <div class="bg-white p-10 rounded-2xl shadow-xl border-t-4 border-[#D4AF37] relative overflow-hidden">
+        <div class="absolute right-0 top-0 bg-[#D4AF37] text-[#0D1B3E] text-xs font-bold px-4 py-1.5 uppercase rounded-bl-lg">Gear 2</div>
+        <h3 class="text-2xl font-extrabold text-[#0D1B3E] mb-4">ASTDN - Africa Sport Tourism Development Network</h3>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          NSTEDPath's dedicated Africa sport tourism vertical operating under the Networking Engine. Connecting sport, tourism, investment, and economic development across 54 African nations through events, partnerships, and development mandates.
+        </p>
+        <span class="text-xs bg-gray-100 px-3 py-1 rounded text-gray-500 font-mono">Vertical Engine</span>
+      </div>
+    </div>
 
-          <div class="bg-indigo-50 p-6 rounded-xl shadow-md">
-            <h3 class="text-3xl font-bold text-darkGreen">95%</h3>
-            <p class="text-gray-600 mt-2">A-Level University Placement</p>
+    <div class="mt-16 text-center bg-gray-100 p-8 rounded-xl max-w-4xl mx-auto border-l-4 border-[#D4AF37]">
+      <p class="italic text-lg text-[#0D1B3E] font-medium">"We don't just host events—we build the rooms where destination economies are decided."</p>
+    </div>
+  </section>
+
+  <!-- mice checkpoint -->
+  <section class="about-page py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue">MICE Checkpoint</h2>
+         <h4 class="text-xl font-serif font-semibold text-navyBlue tracking-wide mt-2">Strategic gatherings that convert relationships into commitments, and commitments into measurable destination growth.</h4>
+        <p class="text-lg text-navyBlue font-sans leading-relaxed mt-4">
+          Our MICE Checkpoint arm is the commercial accelerator of NSTEDPath — designing and executing world-class gatherings that create urgency, unlock deals, activate partnerships, and put destinations on the global map. These are the moments where the NSTEDPath flywheel accelerates: connecting the right people, driving immediate commercial outcomes, and generating the market signals that power the entire ecosystem.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="bg-white rounded-xl shadow-md p-8 border-t-4 border-[#0D1B3E]">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="bg-[#0D1B3E] text-white p-2.5 rounded-lg font-bold">N</div>
+            <h4 class="text-xl font-bold text-[#0D1B3E]">Network - Forge the relationships</h4>
           </div>
+          <p class="text-xs uppercase font-semibold text-[#D4AF37] mb-4 tracking-wider">Forge Relationships</p>
+          <ul class="space-y-4 text-sm text-navyBlue">
+            <li class="pb-3 border-b border-gold"><strong>Institutional Summits:</strong> Facilitating high-stakes dialogue between governments and global capital — creating decision rooms where commitments are made and tourism economies move forward.</li>
+            <li class="pb-3 border-b border-gold"><strong>MICE Strategy & Execution:</strong> Positioning your destination as a world- class hub for Meetings, Incentives, Conferences, and Exhibitions — the highest-yield segment in global tourism and a direct driver of revenue.</li>
+            <li><strong>Trade & Investor Networking:</strong> Curated matchmaking between destination authorities, private investors, tour operators, and global travel trade buyers.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-8 border-t-4 border-[#D4AF37]">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="bg-[#D4AF37] text-[#0D1B3E] p-2.5 rounded-lg font-bold">D</div>
+            <h4 class="text-xl font-bold text-[#0D1B3E]">Develop - Build the capability</h4>
+          </div>
+          <p class="text-xs uppercase font-semibold text-gray-500 mb-4 tracking-wider">Build Capability</p>
+          <ul class="space-y-4 text-sm text-navyBlue">
+            <li class="pb-3 border-b border-gold"><strong>Knowledge Transfer:</strong> Masterclasses and workshops that convert insight into capability — bridging local talent with global standards and accelerating destination readiness.</li>
+            <li class="pb-3 border-b border-gold"><strong>Professional Training:</strong> Elevating the destination's service ecosystem through certified excellence programs that strengthen delivery, build confidence, and improve commercial performance.</li>
+            <li><strong>Destination Strategy Workshops:</strong> Hands-on working sessions that translate NSTED Pulse intelligence into actionable destination development roadmaps.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-8 border-t-4 border-[#0D1B3E]">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="bg-[#0D1B3E] text-white p-2.5 rounded-lg font-bold">P</div>
+            <h4 class="text-xl font-bold text-[#0D1B3E]">Promote - Amplify to the world</h4>
+          </div>
+          <p class="text-xs uppercase font-semibold text-[#D4AF37] mb-4 tracking-wider">Amplify to the World</p>
+          <ul class="space-y-4 text-sm text-navyBlue">
+            <li class="pb-3 border-b border-gold"><strong>Experiential Activation:</strong> Creating signature events that transform the destination's brand into a live market force — generating media, momentum, and commercial demand at once.</li>
+            <li class="pb-3 border-b border-gold"><strong>Media & Content Production:</strong> Capturing every event as premium content — reels, press coverage, and digital assets that extend the event's reach far beyond the room.</li>
+            <li><strong>Campaign Launch Platforms:</strong> Using events as the launchpad for destination marketing campaigns, driving immediate awareness, bookings, and investor interest.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="mt-12 bg-[#0D1B3E] text-white p-8 rounded-xl shadow-lg flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+          <h4 class="text-xl font-bold text-[#D4AF37]">The Self-Reinforcing Onboarding Loop</h4>
+          <p class="text-gray-300 text-sm mt-2 max-w-2xl">
+            Delegates become event sponsors; sponsors graduate to Pulse subscribers; subscribers return as flagship keynote speakers. Intelligence updates continuously through every single interaction.
+          </p>
+        </div>
+        <div class="bg-white/10 px-6 py-4 rounded-lg text-center min-w-[200px] border border-white/20">
+          <span class="block text-2xl font-black text-[#D4AF37]">500+</span>
+          <span class="text-xs uppercase tracking-wider text-gray-400">Capacity scale</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOSYSTEM REVENUE -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="mb-16">
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue">Ecosystem Revenue Pipelines</h2>
+      <p class="text-gray-600 mt-2">Commercial frameworks translating live networking into platform revenue streams.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div class="p-6 bg-white rounded-xl shadow border border-gray-100 text-center">
+        <div class="font-bold text-gold mb-2 uppercase text-base">Media Events</div>
+        <p class="text-navyBlue font-light leading-relaxed text-sm">Footage licensing, broadcast rights, content packages, and commissions.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow border border-gray-100 text-center">
+        <div class="font-bold text-navyBlue mb-2 uppercase text-base">Manufactured Events</div>
+        <p class="text-navyBlue font-light leading-relaxed text-sm">Registration thresholds, global sponsorships, and venue allocations.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow border border-gray-100 text-center">
+        <div class="font-bold text-gold mb-2 uppercase text-base">Tournaments</div>
+        <p class="text-navyBlue font-light leading-relaxed text-sm">Tournament entry metrics, titles, corporate properties, and rights.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow border border-gray-100 text-center">
+        <div class="font-bold text-navyBlue mb-2 uppercase text-base">Championships</div>
+        <p class="text-navyBlue font-light leading-relaxed text-sm">Municipal host infrastructure contracts and structural ticketing revenue.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="bg-[#0D1B3E] text-white py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold">Global Flagship Matrix</h2>
+        <p class="text-[#D4AF37] mt-2 font-mono text-sm">3 Continents • 35+ Countries Represented • 1 Ecosystem</p>
+      </div>
+
+      <div class="space-y-6">
+        
+        <div class="bg-white/5 border border-white/10 p-6 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-4 hover:bg-white/10 transition">
+          <div>
+            <span class="text-xs uppercase font-mono text-[#D4AF37]">Annual • Los Angeles, CA</span>
+            <h3 class="text-xl font-bold mt-1">Destination Builders Summit</h3>
+            <p class="text-sm text-gray-400 mt-1">Architects of regional visitor economies. Hosted by The NSTEDPulse.</p>
+          </div>
+          <div class="text-right text-xs bg-white/10 px-3 py-1.5 rounded text-gray-300 font-mono">500+ Delegates</div>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 p-6 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-4 hover:bg-white/10 transition">
+          <div>
+            <span class="text-xs uppercase font-mono text-[#D4AF37]">Annual • Rotating City</span>
+            <h3 class="text-xl font-bold mt-1">THAT'S World Networking Summit</h3>
+            <p class="text-sm text-gray-400 mt-1">Cross-industry coordination: Aviation, Sustainability, Tourism. Hosted by BINDU AI.</p>
+          </div>
+          <div class="text-right text-xs bg-white/10 px-3 py-1.5 rounded text-gray-300 font-mono">500 Delegates</div>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 p-6 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-4 hover:bg-white/10 transition">
+          <div>
+            <span class="text-xs uppercase font-mono text-[#D4AF37]">Annual • Continental Center</span>
+            <h3 class="text-xl font-bold mt-1">APEX Africa</h3>
+            <p class="text-sm text-gray-400 mt-1">Premier travel trade and capital infrastructure allocation exposition. Hosted by BINDU AI.</p>
+          </div>
+          <div class="text-right text-xs bg-white/10 px-3 py-1.5 rounded text-gray-300 font-mono">500 Delegates</div>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 p-6 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-4 hover:bg-white/10 transition">
+          <div>
+            <span class="text-xs uppercase font-mono text-[#D4AF37]">Annual • Africa Focus</span>
+            <h3 class="text-xl font-bold mt-1">ASTNI</h3>
+            <p class="text-sm text-gray-400 mt-1">Africa's main sports tourism networking indaba asset. Hosted by ASTDN.</p>
+          </div>
+          <div class="text-right text-xs bg-white/10 px-3 py-1.5 rounded text-gray-300 font-mono">500+ Attendees</div>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 p-6 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-4 hover:bg-white/10 transition">
+          <div>
+            <span class="text-xs uppercase font-mono text-[#D4AF37]">Annual • Invite Only</span>
+            <h3 class="text-xl font-bold mt-1">AESTA Awards Gala</h3>
+            <p class="text-sm text-gray-400 mt-1">Africa's Night of Champions. Specialized prestige matching. Hosted by ASTDN.</p>
+          </div>
+          <div class="text-right text-xs bg-white/10 px-3 py-1.5 rounded text-gray-300 font-mono">500 Guests</div>
+        </div>
+
+      </div>
+
+      <div class="mt-16 bg-white text-gray-900 p-10 rounded-2xl border-2 border-[#D4AF37] text-center max-w-3xl mx-auto">
+        <h4 class="text-2xl font-bold text-[#0D1B3E]">Join the Connected Ecosystem</h4>
+        <p class="text-gray-600 mt-2 text-sm">Access market-leading destination intelligence, cross-border partnerships, and real commercial pathways.</p>
+        <div class="mt-6 flex flex-col sm:flex-row justify-center gap-4">
+          <a href="http://www.micecheckpoint.com" target="_blank" class="bg-[#0D1B3E] text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition">
+            Check-In via MICE Checkpoint
+          </a>
+          <button class="border-2 border-[#0D1B3E] text-[#0D1B3E] px-6 py-3 rounded-lg font-bold hover:bg-gray-50 transition">
+            Speak to Our Team
+          </button>
         </div>
       </div>
 
-      <!-- RIGHT SIDE IMAGE -->
-      <div class="relative">
-        <div class="absolute -top-6 -left-6 w-32 h-32 bg-indigo-100 rounded-full blur-2xl opacity-50"></div>
-        
-        <img 
-          src="https://images.unsplash.com/photo-1523240795612-9a054b0db644"
-          alt="Students studying in classroom"
-          class="rounded-3xl shadow-2xl relative z-10"
-        />
-
-        <div class="absolute -bottom-6 -right-6 w-40 h-40 bg-blue-100 rounded-full blur-2xl opacity-50"></div>
-      </div>
-
     </div>
+  </section> -->
 
-  </div>
-</section>
 
-<!-- TAKE NEXT STEP -->
- <section class="next-step bg-darkGreen">
-  <div class="w-[98%] mx-auto">
-    <div class="max-w-6xl px-5 mx-auto py-10">
-    <h2 class="text-white text-4xl text-center font-semibold py-6">Take the next step</h2>
-    <p class="text-base font-poppins-light text-center text-white">Rio Tinto Zhombe High School is proud of its history for providing students with the skills and capabilities to become active global citizens.
-</p>
-<div class="flex items-center justify-center my-7">
- <button class="enroll-button text-xl font-poppins-medium"> Start your enrollment</button>
-</div>
-</div>
-  </div>
- </section>
-
-   <!-- COPYRIGHT FOOTER -->
-<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+    <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-navyBlue text-white h-[50px] flex justify-center items-center">
   <div class="bottom-text">
-    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+    © 2026 NSTED PATH | Designed By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
         
   </div>
 </section>
