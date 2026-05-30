@@ -12,13 +12,13 @@
    <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
   <body>
  <!-- NAV BAR -->
-  <section class="main-menu">
+ <section class="main-menu">
     <nav class="navbar">
     <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
        <!-- LOGO -->
-       <div class="logo py-2">
+       <div class="logo py-6">
            <a href="/">
-               <img src="images/rio_logo.svg" alt="Logo" width="160" height="160">
+               <img src="images/nstedpath_logo.png" alt="Logo" width="160" height="160">
            </a>
        </div>
     
@@ -30,31 +30,33 @@
        </btn>
     
      <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
-    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-medium text-gray-700 tracking-wide text-sm lg:text-base">
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-light text-gold tracking-wide text-sm lg:text-base">
       <ul class="flex space-x-11">
-        <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
       </ul>
     </div>
     </div>
     
     <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
-   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-primaryGreen uppercase tracking-wide text-base font-medium text-gray-700 py-6 hidden">
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-navy text-navyBlue uppercase tracking-wide text-base font-medium py-6 hidden">
     <ul class="flex flex-col items-center space-y-4">
-       <li class="menu-items hover:text-primaryGreen"><a href="/">Home</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/about.html">About Us</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/our-staff.html">Our Staff</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/academics.html">Academics</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/admissions.html">Admissions</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/news.html">News</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/gallery.html">Gallery</a></li>
-        <li class="menu-items hover:text-primaryGreen"><a href="/contact.html">Contact</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
           </ul>
       
     </div>
@@ -66,719 +68,269 @@
     <div class="website-banner relative">
       <picture>
         <!-- Use the same image and adjust the height at different breakpoints -->
-        <img src="images/our-staff.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+        <img src="images/networking-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
       </picture>
       <!-- Darker Overlay Background -->
-      <div class="absolute inset-0 bg-black/60"></div> <!-- Darker overlay -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
       <!-- Text Content -->
       <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
-        <h1 class="text-white text-3xl md:text-5xl font-bold"> Our Staff Members</h1>
-        <button class="sharedButton web-button my-6">get in touch</button>
+        <h1 class="text-white text-3xl md:text-5xl font-bold">The Networking Engine</h1>
+        <a href="#" class="w-full sm:w-auto bg-gold text-navyBlue hover:bg-white transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 my-6 shadow-lg shadow-gold/10">
+                Resources
+            </a>
       </div>
     </div>
   </section>
   
-  
-<!-- TEACHERS SECTION -->
-<section class="py-16 text-center">
+<!-- ASDTN -->
+  <section class="bg-[#0D1B3E] text-white py-20 px-6 relative border-b-4 border-[#D4AF37]">
+    <div class="max-w-6xl mx-auto">
+      <span class="text-[#D4AF37] font-bold uppercase tracking-widest text-xs bg-white/10 px-6 py-3 font-mono">
+        NETWORKING ENGINE
+      </span>
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white mt-6">
+        ASTDN
+      </h2>
+      <p class="mt-4 capitalize text-lg text-white/60 font-sans leading-relaxed">
+        Africa Sport Tourism Development Network
+      </p>
+      <p class="mt-6 text-lg text-white/60 font-sans leading-relaxed">
+        ASTDN is NSTEDPath's dedicated Africa sport tourism vertical — operating under the Networking Engine of THE NSTED PULSE. It is the continent-facing commercial channel that converts Africa's sport tourism opportunity into income through events, partnerships, sponsorship, and sport tourism development mandates. Built on all three NSTEDPath Engines — Networking, Development, and Promotion — ASTDN is designed to design, fund, and activate tourism destinations across Africa. Operating across all 54 African nations, with priority activation markets in East Africa (Rwanda, Kenya, Tanzania), Southern Africa (South Africa, Zimbabwe, Zambia), and West Africa (Ghana, Nigeria, Senegal).
+      </p>
+      
+      <div class="flex flex-wrap justify-center gap-6 mt-10 text-xs font-mono">
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">54 AFRICAN NATIONS</span>
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">2 FLAGSHIP INFRASTRUCTURES</span>
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">SPORT TOURISM EXCELLENCE</span>
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">NETWORKING ENGINE GEAR</span>
+      </div>
+    </div>
+  </section>
 
-  <h2 class="text-4xl font-bold text-primaryGreen">
-    Our Staff Members
-  </h2>
+  <!-- WHAT WE DO -->
+  <section class="about-page py-20">
+  <div class="max-w-8xl mx-auto px-6 lg:px-24">
 
-  <p class="text-gray-900 mt-4 max-w-3xl mx-auto leading-tight tracking-wide">
-    Meet the dedicated professionals shaping the learning experience at Rio Tinto Zhome High School.
+    <!-- Heading -->
+    <div class="mb-14">
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue mt-6">
+        What We Do
+      </h2>
+
+      <p class="mt-4 text-lg text-navyBlue font-sans leading-relaxed">
+        The Full NSTEDPath Ecosystem — Deployed as a Commercial Engine for
+        Africa's Sport Tourism Opportunity
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+<div class="group h-full bg-white border border-gray-200 rounded-2xl p-6
+         shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+  <!-- Gold Accent -->
+  <div class="absolute top-0 left-0 w-full h-1 bg-gold"></div>
+  <!-- Icon -->
+  <div
+    class="w-12 h-12 rounded-full flex items-center justify-center mb-6">
+    <svg fill="#0D1B3E" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M36,3.197C17.911,3.197,3.195,17.912,3.195,36S17.911,68.803,36,68.803S68.805,54.087,68.805,36S54.089,3.197,36,3.197z M37.271,64.771v-0.915c0-1.104-0.896-2-2-2s-2,0.896-2,2v0.814C19.482,63.368,8.497,52.306,7.309,38.484H8c1.104,0,2-0.896,2-2 s-0.896-2-2-2H7.235C7.979,20.213,19.161,8.662,33.272,7.33v0.527c0,1.104,0.896,2,2,2c1.105,0,2-0.896,2-2V7.229 c14.792,0.646,26.725,12.496,27.493,27.256H63c-1.104,0-2,0.896-2,2s0.896,2,2,2h1.69C63.462,52.79,51.737,64.139,37.271,64.771z"></path> <path d="M45.325,25.233l-14.228,5.095c-0.284,0.101-0.506,0.326-0.607,0.611l-5.095,14.557c-0.127,0.363-0.034,0.77,0.24,1.04 c0.19,0.188,0.444,0.29,0.704,0.29c0.113,0,0.227-0.02,0.335-0.059l14.229-5.097c0.283-0.101,0.506-0.325,0.605-0.61l0.727-2.072 c0.184-0.521-0.09-1.092-0.611-1.274c-0.521-0.187-1.092,0.093-1.273,0.612l-0.57,1.624l-11.803,4.228l4.244-12.129l11.805-4.226 l-0.724,2.069c-0.183,0.52,0.093,1.091,0.613,1.273c0.522,0.187,1.091-0.092,1.272-0.613l1.418-4.048 c0.127-0.363,0.035-0.769-0.239-1.04C46.093,25.193,45.686,25.104,45.325,25.233z"></path> <path d="M43.581,32.119c-0.522-0.186-1.091,0.092-1.272,0.613l-0.805,2.295c-0.184,0.52,0.092,1.091,0.613,1.273 c0.109,0.039,0.221,0.057,0.33,0.057c0.412,0,0.8-0.258,0.943-0.67l0.803-2.295C44.377,32.872,44.102,32.301,43.581,32.119z"></path> </g> </g></svg>
+  </div>
+
+  <!-- Title -->
+  <h3 class="text-2xl font-bold text-navyBlue mb-4">
+    Strategic Planning — BINDU
+  </h3>
+
+  <!-- Content -->
+  <p class="text-gray-600 leading-relaxed">
+    Business intelligence, networking, and strategic planning that align
+    governments, investors, and sport bodies around a unified destination
+    strategy and commercial growth agenda.
   </p>
-
-   <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-8xl mx-auto px-8 py-5">
-
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-56 h-56 mx-auto">
-        <img src="images/Circleimage.png" 
-             class="w-56 h-56 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Mathematics Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal1')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
 </div>
-<!-- Modal -->
-<div id="teacherModal1" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
 
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal1')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-1.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Head of Mathematics Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>BSc Mathematics, PGCE</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>12 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Mathematics A-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
+      <!-- Card 2 -->
+      <div class="group h-full bg-white border border-gray-200 rounded-2xl p-6
+         shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+  <!-- Gold Accent -->
+  <div class="absolute top-0 left-0 w-full h-1 bg-gold"></div>
+  <!-- Icon -->
+  <div
+    class="w-12 h-12 rounded-full flex items-center justify-center mb-6">
+    <svg width="64px" height="64px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#0D1B3E"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M29.871 6.026l-13.871-5.1-14.394 5.283v19.642l14.394 5.222 14.394-5.222v-19.634l-0.524-0.192zM15.467 29.746l-12.795-4.642v-17.747l12.795 4.642v17.747zM16 11.058l-12.326-4.472 12.326-4.524 12.315 4.528-12.315 4.468zM29.328 25.104l-12.795 4.642v-17.747l12.795-4.623v17.728z" fill="#0D1B3E"> </path> </g></svg>
   </div>
+
+  <!-- Title -->
+  <h3 class="text-2xl font-bold text-navyBlue mb-4">
+    Strategic Planning — BINDU
+  </h3>
+
+  <!-- Content -->
+  <p class="text-gray-600 leading-relaxed">
+    Business intelligence, networking, and strategic planning that align
+    governments, investors, and sport bodies around a unified destination
+    strategy and commercial growth agenda.
+  </p>
 </div>
 
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-2.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        History Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal2')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal2" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal2')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-2.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Head of History Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>BA Arts</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>2 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>History A-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
+      <!-- Card 3 -->
+      <div class="group h-full bg-white border border-gray-200 rounded-2xl p-6
+         shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+  <!-- Gold Accent -->
+  <div class="absolute top-0 left-0 w-full h-1 bg-gold"></div>
+  <!-- Icon -->
+  <div
+    class="w-12 h-12 rounded-full flex items-center justify-center mb-6">
+    <svg fill="#0D1B3E" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 187.333 187.333" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M175.831,169.265c-1.054,0-2.014-0.667-2.363-1.69c-0.078-0.216-5.542-14.626-38.789-34.154 c-28.401-16.682-58.29-17.979-66.773-17.979c-0.465,0-0.884,0.003-1.252,0.009c-1.187,3.741-4.691,6.46-8.82,6.46h-5.791 l5.893,34.792c0.275,1.631-0.179,3.291-1.246,4.554c-1.066,1.263-2.627,1.987-4.28,1.987H39.706c-2.744,0-5.068-1.964-5.526-4.669 l-6.209-36.664h-8.138c-5.101,0-9.25-4.149-9.25-9.25v-2.375H6.981c-3.85,0-6.981-3.132-6.981-6.982V84.018 c0-3.85,3.132-6.982,6.981-6.982h3.602v-2.375c0-5.101,4.149-9.25,9.25-9.25h38c4.129,0,7.634,2.719,8.82,6.46 c0.368,0.005,0.787,0.009,1.252,0.009c8.483,0,38.372-1.296,66.773-17.979c33.332-19.578,38.739-34.012,38.789-34.155 c0.406-1.147,1.584-1.845,2.784-1.642c1.2,0.206,2.081,1.235,2.081,2.453v51.309c5.135,1.087,9,5.656,9,11.11v21.37 c0,5.455-3.865,10.023-9,11.11v51.309c0,1.227-0.89,2.272-2.101,2.468C176.098,169.254,175.964,169.265,175.831,169.265z M33.042,121.911l6.067,35.829c0.05,0.292,0.301,0.504,0.597,0.504h12.702c0.231,0,0.379-0.117,0.462-0.214 c0.083-0.098,0.174-0.263,0.135-0.493l-6.034-35.626H33.042z M67.905,110.442c11.282,0,40.621,1.819,69.307,18.667 c20.479,12.029,30.921,22.29,36.121,28.913V29.3c-5.2,6.623-15.642,16.883-36.121,28.913C108.526,75.06,79.188,76.879,67.905,76.879 c-0.291,0-0.565-0.001-0.822-0.003v33.569C67.34,110.443,67.614,110.442,67.905,110.442z M49.083,116.911h8.75 c2.344,0,4.25-1.907,4.25-4.25v-38c0-2.343-1.906-4.25-4.25-4.25h-38c-2.344,0-4.25,1.907-4.25,4.25v38 c0,2.343,1.906,4.25,4.25,4.25H49.083z M178.333,77.072v33.178c2.342-0.938,4-3.231,4-5.904v-21.37 C182.333,80.303,180.675,78.01,178.333,77.072z M6.981,82.036C5.889,82.036,5,82.925,5,84.018v19.286 c0,1.093,0.889,1.982,1.981,1.982h3.602v-23.25H6.981z"></path> </g></svg>
   </div>
+
+  <!-- Title -->
+  <h3 class="text-2xl font-bold text-navyBlue mb-4">
+    Strategic Planning — BINDU
+  </h3>
+
+  <!-- Content -->
+  <p class="text-gray-600 leading-relaxed">
+    Business intelligence, networking, and strategic planning that align
+    governments, investors, and sport bodies around a unified destination
+    strategy and commercial growth agenda.
+  </p>
 </div>
 
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-3.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Computer Science Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal3')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal3')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Computer Science Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>Computer Science</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>8 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Computer Science O-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
+      <!-- Card 4 -->
+     <div class="group h-full bg-white border border-gray-200 rounded-2xl p-6
+         shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+  <!-- Gold Accent -->
+  <div class="absolute top-0 left-0 w-full h-1 bg-gold"></div>
+  <!-- Icon -->
+  <div
+    class="w-12 h-12 rounded-full items-center justify-center mb-6">
+    <svg fill="#0D1B3E" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" class="w-12 h-12"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="chart--line_1_" d="M31,31.36H1c-0.199,0-0.36-0.161-0.36-0.36V1h0.72v28.377l6.314-13.529 c0.055-0.119,0.171-0.198,0.302-0.207c0.137-0.003,0.257,0.054,0.327,0.165l4.468,6.952l4.887-14.869 c0.045-0.136,0.166-0.233,0.309-0.246c0.14-0.012,0.278,0.059,0.349,0.184l6.266,11.336l6.107-10.579l0.623,0.36l-6.426,11.13 c-0.064,0.111-0.183,0.181-0.312,0.181c-0.001,0-0.002,0-0.003,0c-0.13-0.002-0.249-0.072-0.312-0.187L18.084,8.896L13.219,23.7 c-0.043,0.132-0.159,0.228-0.296,0.245c-0.136,0.021-0.272-0.045-0.348-0.163L8.05,16.744L1.565,30.64H31V31.36z"></path> <rect id="_Transparent_Rectangle" style="fill:none;" width="32" height="32"></rect> </g></svg>
   </div>
+
+  <!-- Title -->
+  <h3 class="text-2xl font-bold text-navyBlue mb-4">
+    Strategic Planning — BINDU
+  </h3>
+
+  <!-- Content -->
+  <p class="text-gray-600 leading-relaxed">
+    Business intelligence, networking, and strategic planning that align
+    governments, investors, and sport bodies around a unified destination
+    strategy and commercial growth agenda.
+  </p>
 </div>
 
-
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-3.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Computer Science Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal3')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal3')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Computer Science Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>Computer Science</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>8 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Computer Science O-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
+      <!-- Card 5 -->
+      <div class="group h-full bg-white border border-gray-200 rounded-2xl p-6
+         shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+  <!-- Gold Accent -->
+  <div class="absolute top-0 left-0 w-full h-1 bg-gold"></div>
+  <!-- Icon -->
+  <div
+    class="w-12 h-12 flex items-center justify-center mb-6">
+    <svg width="64px" height="64px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#0D1B3E"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><circle cx="28" cy="28" r="20"></circle><line x1="56" y1="56" x2="42.14" y2="42.14"></line></g></svg>
   </div>
+
+  <!-- Title -->
+  <h3 class="text-2xl font-bold text-navyBlue mb-4">
+    Strategic Planning — BINDU
+  </h3>
+
+  <!-- Content -->
+  <p class="text-gray-600 leading-relaxed">
+    Business intelligence, networking, and strategic planning that align
+    governments, investors, and sport bodies around a unified destination
+    strategy and commercial growth agenda.
+  </p>
 </div>
 
-
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-3.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Computer Science Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal3')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal3')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Computer Science Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>Computer Science</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>8 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Computer Science O-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
+      <!-- Card 6 -->
+     <div class="group h-full bg-white border border-gray-200 rounded-2xl p-6
+         shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden">
+  <!-- Gold Accent -->
+  <div class="absolute top-0 left-0 w-full h-1 bg-gold"></div>
+  <!-- Icon -->
+  <div
+    class="w-12 h-12 flex items-center justify-center mb-6">
+    <svg fill="#0D1B3E" width="64px" height="64px" viewBox="0 0 256.00098 256.00098" id="Flat" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M128.002,76.00195a52,52,0,1,0,52,52A52.059,52.059,0,0,0,128.002,76.00195Zm0,96a44,44,0,1,1,44-44A44.04978,44.04978,0,0,1,128.002,172.002ZM233.5498,105.11523a3.99865,3.99865,0,0,0-1.96728-2.64843L206.73486,88.67334a88.33049,88.33049,0,0,0-5.30713-9.209l.47852-28.43457A3.99865,3.99865,0,0,0,200.5957,48.001a107.164,107.164,0,0,0-39.64013-22.84961,4.0005,4.0005,0,0,0-3.27735.37939L133.30859,40.15283a88.31451,88.31451,0,0,0-10.62841-.00781L98.29443,25.5127a3.99683,3.99683,0,0,0-3.27881-.3794A107.16462,107.16462,0,0,0,55.40771,48.03809a3.99959,3.99959,0,0,0-1.31005,3.02832l.478,28.41552a88.32129,88.32129,0,0,0-5.32129,9.2002L24.38965,102.48535a3.99972,3.99972,0,0,0-1.96778,2.64942,107.15859,107.15859,0,0,0,.03223,45.7539,3.99868,3.99868,0,0,0,1.96729,2.64844L49.269,167.33057a88.33407,88.33407,0,0,0,5.30713,9.209l-.47851,28.43457a3.99862,3.99862,0,0,0,1.31054,3.02881,107.16409,107.16409,0,0,0,39.64014,22.84961,4.00045,4.00045,0,0,0,3.27734-.3794l24.36963-14.62207a88.31467,88.31467,0,0,0,10.62842.00782l24.38574,14.63232a3.99853,3.99853,0,0,0,3.27881.3794,107.16467,107.16467,0,0,0,39.60791-22.90479,3.99965,3.99965,0,0,0,1.31006-3.02832l-.478-28.41553a88.32012,88.32012,0,0,0,5.32129-9.20019l24.86475-13.80323a3.99967,3.99967,0,0,0,1.96777-2.64941A107.15864,107.15864,0,0,0,233.5498,105.11523Zm-7.42089,42.29834L201.77051,160.936a3.99891,3.99891,0,0,0-1.66162,1.76025,80.1449,80.1449,0,0,1-6.00391,10.37988,3.9995,3.9995,0,0,0-.69678,2.32422l.46826,27.84033a99.108,99.108,0,0,1-33.62207,19.44776L136.36475,208.354a4.00239,4.00239,0,0,0-2.05811-.56982c-.09863,0-.19824.00391-.29736.01123a80.18462,80.18462,0,0,1-11.9917-.00977,4.03285,4.03285,0,0,0-2.36084.5586L95.78027,222.67041a99.10885,99.10885,0,0,1-33.65332-19.394l.46924-27.85547a4.00156,4.00156,0,0,0-.69385-2.31934,80.215,80.215,0,0,1-5.9873-10.39013,4.001,4.001,0,0,0-1.66455-1.76514L29.90576,147.43164a99.11293,99.11293,0,0,1-.03076-38.84131L54.2334,95.06787A3.999,3.999,0,0,0,55.895,93.30762a80.145,80.145,0,0,1,6.00391-10.37989,3.99946,3.99946,0,0,0,.69677-2.32421l-.46826-27.84034A99.10837,99.10837,0,0,1,95.74951,33.31543L119.63916,47.6499a3.99305,3.99305,0,0,0,2.35547.5586,80.186,80.186,0,0,1,11.9917.00976,4.01732,4.01732,0,0,0,2.36084-.55859L160.22363,33.3335a99.10849,99.10849,0,0,1,33.65332,19.394L193.40771,80.583a4.00158,4.00158,0,0,0,.69385,2.31933,80.21514,80.21514,0,0,1,5.98731,10.39014,4.00106,4.00106,0,0,0,1.66455,1.76514l24.34472,13.51465A99.11307,99.11307,0,0,1,226.12891,147.41357Z"></path> </g></svg>
   </div>
+
+  <!-- Title -->
+  <h3 class="text-2xl font-bold text-navyBlue mb-4">
+    Strategic Planning — BINDU
+  </h3>
+
+  <!-- Content -->
+  <p class="text-gray-600 leading-relaxed">
+    Business intelligence, networking, and strategic planning that align
+    governments, investors, and sport bodies around a unified destination
+    strategy and commercial growth agenda.
+  </p>
 </div>
 
-
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-3.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
     </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Computer Science Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal3')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal3')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Computer Science Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>Computer Science</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>8 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Computer Science O-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
   </div>
-</div>
-
-
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-3.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Computer Science Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal3')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal3')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Computer Science Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>Computer Science</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>8 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Computer Science O-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
-  </div>
-</div>
-
-
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-3.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Computer Science Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal3')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal3')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Computer Science Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>Computer Science</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>8 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Computer Science O-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
-  </div>
-</div>
-
-
-<div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 p-10 text-center group">
-
-    <div class="relative w-40 h-40 mx-auto">
-        <img src="images/teacher-3.jpg" 
-             class="w-40 h-40 object-cover rounded-full group-hover:scale-105 transition duration-300">
-    </div>
-
-    <h3 class="mt-6 text-2xl font-bold text-gray-800">
-        John Doe
-    </h3>
-
-    <p class="text-gray-900 font-medium tracking-wide">
-        Computer Science Teacher
-    </p>
-
-    <div class="social">
-     <a href="https://linkedin.com" target="_blank"> <img src="images/linkedin-icon.svg" alt="Linkedin" class="w-10 h-10 mx-auto object-cover flex items-center mt-2"></a>
-    </div>
-
-    <button onclick="openModal('teacherModal3')" 
-        class="mt-4 px-8 py-3 border-2 border-primaryGreen text-blue-900 rounded-full tracking-widest hover:bg-primaryGreen hover:text-white transition duration-300 uppercase">
-        view bio
-    </button>
-
-</div>
-<!-- Modal -->
-<div id="teacherModal3" class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
-
-  <div class="bg-white rounded-3xl max-w-2xl w-full p-10 relative animate-fadeIn">
-
-      <!-- Fix: Pass the correct modal ID -->
-      <button onclick="closeModal('teacherModal3')" 
-              class="absolute top-5 right-5 text-gray-500 hover:text-black text-xl">
-          x
-      </button>
-
-      <div class="flex flex-col md:flex-row gap-8 items-center">
-
-          <img src="images/teacher-3.jpg" class="w-40 h-40 rounded-full object-cover">
-
-          <div>
-              <h2 class="text-3xl font-bold text-gray-900">John Doe</h2>
-              <p class="text-darkGreen font-semibold">Computer Science Department</p>
-
-              <div class="mt-4 text-gray-600 space-y-2 ">
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Qualifications:</h2>
-                    <p>Computer Science</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Experience:</h2>
-                    <p>8 Years</p>
-                  </div>
-                 <div class="flex gap-2">
-                  <h2 class="text-base font-semibold">Speciality:</h2>
-                    <p>Computer Science O-level</p>
-                  </div>
-                 
-                  
-              </div>
-          </div>
-
-      </div>
-
-      <div class="mt-6 text-gray-700 leading-relaxed">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime rerum esse dicta debitis facere quae nesciunt recusandae, explicabo saepe animi, nobis qui necessitatibus aut! Id molestias dolores quas qui quaerat vero architecto, delectus odit iusto cumque quibusdam amet expedita fugiat!
-      </div>
-
-  </div>
-</div>
-
-</div>
-
-  <a href=""
-     class="inline-block mt-10 px-10 text-base font-poppins-light py-3 border-2 border-goldYellow text-blue-900 rounded-full tracking-widest hover:bg-goldYellow hover:text-white transition duration-300 uppercase">
-     explore our school
-  </a>
-
 </section>
 
+<!-- FLAGSHIP PLATFORM -->
+  <section class="bg-white py-20 px-6 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto">
+      
+      <div class="mb-8">
+        <span class="text-xs font-mono uppercase text-[#D4AF37] font-bold tracking-wider">Flagship Intersect Engine</span>
+        <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue mt-6">
+          ASTDN Flagship Platforms
+        </h2>
+        <p class="text-gray-600 text-sm mt-2">
+          Two Platforms. One Mission. Africa's Sport Tourism on the World Stage.
+        </p>
+      </div>
 
-<script>
-function openModal(modalId) {
-  const modal = document.getElementById(modalId);
-  modal.classList.remove('hidden');
-  modal.classList.add('flex');
-}
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-200/60 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between border-b pb-4 mb-6">
+              <h3 class="font-black text-xl text-[#0D1B3E] tracking-tight">AESTA — Africa Excellence in Sport Tourism Ambassadors Awards</h3>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed mb-6">
+              Celebrating excellence and recognising outstanding contributions to sport tourism across Africa. The AESTA Awards Gala is ASTDN's annual flagship revenue activation — generating media value, ministerial attendance, sponsorship income, and partnership conversion. Nominees become clients, sponsors become partners, and winners become brand ambassadors for African sport tourism on the global stage.
+            </p>
+            
+          </div>
+          <div class="mt-8 pt-6 border-t border-gray-100 flex items-center justify-between text-xs font-mono text-gray-400">
+            <span>Served by: BINDU AI Core</span>
+            <span class="text-[#0D1B3E] font-bold">500+ Top Delegates</span>
+          </div>
+        </div>
 
-function closeModal(modalId) {
-  const modal = document.getElementById(modalId);
-  modal.classList.add('hidden');
-  modal.classList.remove('flex');
-}
-</script>
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-200/60 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between border-b pb-4 mb-6">
+              <h3 class="font-black text-xl text-[#0D1B3E] tracking-tight">ASTNI — Africa Sport Tourism Networking Indaba</h3>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed mb-6">
+              Africa's premier sport tourism commercial networking platform — bringing together 500+ attendees, 70+ speakers, and 35+ countries. A high-value convening point for sport event rights holders, event managers, parks and recreation personnel, investors, and economic development agencies. ASTNI is where Africa's sport tourism industry sets its agenda, builds its alliances, and unlocks investment and activation pipelines.
+            </p>
+           
+          </div>
+          <div class="mt-8 pt-6 border-t border-gray-100 flex items-center justify-between text-xs font-mono text-gray-400">
+            <span>Hosted by: The NSTEDPulse</span>
+            <span class="text-[#D4AF37] font-bold">Global Capital Focus</span>
+          </div>
+        </div>
 
-<!-- TAKE NEXT STEP -->
- <section class="next-step bg-darkGreen">
-  <div class="w-[98%] mx-auto">
-    <div class="max-w-6xl px-5 mx-auto py-10">
-    <h2 class="text-white text-4xl text-center font-semibold py-6">Take the next step</h2>
-    <p class="text-base font-poppins-light text-center text-white">Rio Tinto Zhombe High School is proud of its history for providing students with the skills and capabilities to become active global citizens.
-</p>
-<div class="flex items-center justify-center my-7">
- <button class="enroll-button text-xl font-poppins-medium"> Start your enrollment</button>
-</div>
-</div>
-  </div>
- </section>
+      </div>
+    </div>
+  </section>
 
-   <!-- COPYRIGHT FOOTER -->
-<section class="bottom-footer bg-brickBrown text-white h-[50px] flex justify-center items-center">
+
+    <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-navyBlue text-white h-[50px] flex justify-center items-center">
   <div class="bottom-text">
-    © Rio Tinto Zhombe High School 2026 | By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+    © 2026 NSTED PATH | Designed By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
         
   </div>
 </section>
