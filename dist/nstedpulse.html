@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>NstedPlusE | NSTEDPATH</title>
+    <script type="module" crossorigin src="/assets/main-BbuKIYGl.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-z1DdinFt.css">
+  </head>
+   <!-- BACK TO TOP -->
+   <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
+  <body>
+     
+  <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class="logo py-6">
+           <a href="/">
+               <img src="images/nstedpath_logo.png" alt="Logo" width="160" height="160">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-light text-gold tracking-wide text-sm lg:text-base">
+      <ul class="flex space-x-11">
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-navy text-navyBlue uppercase tracking-wide text-base font-medium py-6 hidden">
+    <ul class="flex flex-col items-center space-y-4">
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/networking-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold">The Networking Engine</h1>
+        <a href="#" class="w-full sm:w-auto bg-gold text-navyBlue hover:bg-white transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 my-6 shadow-lg shadow-gold/10">
+                Resources
+            </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- HERO / PLATFORM OVERVIEW (Page 32)                       -->
+  <!-- ========================================================= -->
+  <section class="bg-[#0D1B3E] text-white py-20 px-6 border-b-4 border-[#D4AF37]">
+    <div class="max-w-6xl mx-auto">
+      <span class="text-[#D4AF37] font-bold uppercase tracking-wider text-sm bg-white/10 px-6 py-3">
+        Destination Intelligence SaaS Platform
+      </span>
+      <h2 class="ext-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white mt-6">
+       <span class="text-gold">Destination Intelligence</span> as a Sovereign Operating System
+      </h2>
+      <p class="mt-6 text-lg text-white/60 font-sans leading-relaxed">
+        The NSTED Pulse is a destination-intelligence SaaS that scores tourism destinations across 8 strategic pillars and 40 tracked variables, then drives them through a 36-month, 6-phase improvement roadmap reviewed every 90 days. Built by destinations, for destinations — and governed by a peer-reviewed Methodology Council. It is not a report. It is a living institutional intelligence system — ingesting real-world evidence, benchmarking destinations across the 8-Pillar Matrix, and automatically issuing strategic directives.
+      </p>
+      
+      <!-- Platform Highlight Badges -->
+      <div class="flex flex-wrap justify-center gap-4 mt-8 text-xs font-mono">
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">8 STRATEGIC PILLARS</span>
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">40 TRACKED VARIABLES</span>
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">6 SUBSCRIPTION TIERS</span>
+        <span class="bg-white/5 border border-white/10 px-4 py-2 rounded">90-DAY REVIEW CYCLES</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- THE 8 STRATEGIC PILLARS MATRIX (Pages 32-33)              -->
+  <!-- ========================================================= -->
+  <section class="about-page">
+    <div class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="mb-16">
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue mt-6">The 8-Pillar Scoring Architecture</h2>
+      <p class="mt-4 text-lg text-navyBlue font-sans leading-relaxed">Each pillar produces a composite 0–100 benchmark revealing true destination vitality.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+      <!-- Pillar 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#0D1B3E] transition">
+        <div class="text-xs font-mono font-bold text-[#D4AF37] uppercase tracking-wider">Pillar 01</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Economics</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Fiscal data tracking, direct GDP throughput, and long-term financial destination sustainability.</p>
+      </div>
+      <!-- Pillar 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#0D1B3E] transition">
+        <div class="text-xs font-mono font-bold text-[#0D1B3E] uppercase tracking-wider">Pillar 02</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Identity</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Cultural narrative strength, brand integrity metrics, and native asset preservation scoring.</p>
+      </div>
+      <!-- Pillar 3 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#0D1B3E] transition">
+        <div class="text-xs font-mono font-bold text-[#D4AF37] uppercase tracking-wider">Pillar 03</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Access</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Global transport connectivity networks, aviation lanes, and strategic visa framework friction.</p>
+      </div>
+      <!-- Pillar 4 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#0D1B3E] transition">
+        <div class="text-xs font-mono font-bold text-[#0D1B3E] uppercase tracking-wider">Pillar 04</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Demand</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Real-time visitor volume capacity, forward bookings density, and seasonal performance capture.</p>
+      </div>
+      <!-- Pillar 5 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#D4AF37] transition">
+        <div class="text-xs font-mono font-bold text-[#0D1B3E] uppercase tracking-wider">Pillar 05</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Experience</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Complete end-to-end visitor journey quality indicators and service delivery mapping.</p>
+      </div>
+      <!-- Pillar 6 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#D4AF37] transition">
+        <div class="text-xs font-mono font-bold text-[#D4AF37] uppercase tracking-wider">Pillar 06</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Sustainability</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Environmental metrics, biodiversity tracking, and localized socio-community equity ratios.</p>
+      </div>
+      <!-- Pillar 7 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#D4AF37] transition">
+        <div class="text-xs font-mono font-bold text-[#0D1B3E] uppercase tracking-wider">Pillar 07</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Measurement</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Data collection infrastructure efficiency and sovereign empirical reporting health.</p>
+      </div>
+      <!-- Pillar 8 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:border-[#D4AF37] transition">
+        <div class="text-xs font-mono font-bold text-[#D4AF37] uppercase tracking-wider">Pillar 08</div>
+        <h3 class="text-lg font-bold text-[#0D1B3E] mt-1 mb-2">Replication</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">Scalability of regional destination growth models across alternative operational areas.</p>
+      </div>
+    </div>
+     <a href="#" class="w-full sm:w-auto bg-navyBlue text-white hover:bg-gold transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 my-6 shadow-lg shadow-gold/10">
+                Resources
+            </a>
+  </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- FOUR-STAGE SYSTEM WORKFLOW (Page 34)                     -->
+  <!-- ========================================================= -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="mb-8">
+        <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue mt-6">How It Works — Four Stages. One Sovereign Workflow.</h2>
+        <p class="text-gray-600 mt-2">From self-declaration to strategic roadmap in four stages — the NSTED Pulse transforms raw destination data into a living, peer-benchmarked intelligence system that compounds over time.</p>
+        <h3 class="text-xl font-bold my-3">The Four-Stage Workflow</h3>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 tracking-tight">
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-[#0D1B3E]">
+          <span class="text-2xl font-black text-[#0D1B3E] block mb-2">01</span>
+          <h4 class="font-bold text-[#0D1B3E] mb-1">Portal</h4>
+          <p class="text-sm text-gray-500">Self-declare 40 variables across 8 pillars in a guided onboarding. Your baseline is set. Your journey begins.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-[#D4AF37]">
+          <span class="text-2xl font-black text-[#D4AF37] block mb-2">02</span>
+          <h4 class="font-bold text-[#0D1B3E] mb-1">Pulse Vitality Rating</h4>
+          <p class="text-sm text-gray-500">Real-time composite score, peer-benchmarked and Council-reviewable. Know exactly where you stand against the world.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-[#0D1B3E]">
+          <span class="text-2xl font-black text-[#0D1B3E] block mb-2">03</span>
+          <h4 class="font-bold text-[#0D1B3E] mb-1">36-Month Roadmap</h4>
+          <p class="text-sm text-gray-500">Six phases, twelve milestones, mapped to your weakest pillars. A sovereign improvement plan — not a static report.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-[#D4AF37]">
+          <span class="text-2xl font-black text-[#D4AF37] block mb-2">04</span>
+          <h4 class="font-bold text-[#0D1B3E] mb-1">Quarterly Review</h4>
+          <p class="text-sm text-gray-500">Published every 90 days with rating delta + milestone scorecard. Intelligence that evolves as your destination does.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- STRATEGY BUILDER & COUNCIL ARCHITECTURE (Pages 35-36)     -->
+  <!-- ========================================================= -->
+  <section class="fivePillars text-white py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div>
+        <span class="text-xs font-mono uppercase text-[#D4AF37] font-bold tracking-wider">The Architecture of Execution</span>
+          <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white my-6">The <span class="text-gold">Automated Strategy</span> Builder</h2>
+      </div>
+      <!-- Methodology -->
+<div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+
+  <div>
+    <img src="images/methodology-dashboard.jpg" alt="Methodology Dashboard"
+      class="w-full rounded-2xl border border-white/10 object-cover">
+  </div>
+
+  <div class="bg-white/5 border border-white/10 p-8 rounded-2xl">
+
+    <h3 class="text-2xl font-serif text-white mb-3">
+      The Methodology Council
+    </h3>
+
+    <p class="text-sm text-gray-400 mb-8">
+      Independent oversight body governing version updates and statistical variables.
+    </p>
+
+    <div class="grid grid-cols-2 gap-4 text-center text-xs font-mono">
+
+      <div class="p-3 bg-white/5 rounded border border-white/10 text-gray-300">
+        Sustainability Lead
+      </div>
+
+      <div class="p-3 bg-white/5 rounded border border-white/10 text-gray-300">
+        Tourism Economics
+      </div>
+
+      <div class="p-3 bg-white/5 rounded border border-white/10 text-gray-300">
+        Destination Mgmt
+      </div>
+
+      <div class="p-3 bg-white/5 rounded border border-white/10 text-gray-300">
+        Data Infrastructure
+      </div>
+
+      <div class="col-span-2 p-3 bg-white/10 rounded border border-[#D4AF37]/30 text-[#D4AF37] font-bold">
+        Community Wellbeing Seat
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- Strategy Builder -->
+<div class="grid md:grid-cols-2 gap-6">
+
+  <!-- CARD 1 -->
+  <div class="p-5 bg-white/5 rounded-xl border border-white/10">
+    <div class="flex items-center gap-3 mb-3">
+      <h4 class="font-bold text-white">
+        8-Pillar Gap Analysis
+      </h4>
+    </div>
+    <p class="text-xs text-gray-400">
+      Identifies underperforming pillars relative to comparable global destinations. Each gap ranked by impact potential — where investment generates the highest return on competitiveness.
+    </p>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="p-5 bg-white/5 rounded-xl border border-white/10">
+    <div class="flex items-center gap-3 mb-3">
+      <h4 class="font-bold text-white">
+        Priority Action Matrix
+      </h4>
+    </div>
+    <p class="text-xs text-gray-400">
+      For each underperforming pillar: ranked interventions assigned cost range, timeline (Quick Win / Medium / Long), and accountability.
+    </p>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="p-5 bg-white/5 rounded-xl border border-white/10">
+    <div class="flex items-center gap-3 mb-3">
+      <h4 class="font-bold text-white">
+        Roadmap Generation
+      </h4>
+    </div>
+    <p class="text-xs text-gray-400">
+      Full destination development roadmap with quarterly milestones, KPI targets per pillar, and budget allocation guidance.
+    </p>
+  </div>
+
+  <!-- CARD 4 -->
+  <div class="p-5 bg-white/5 rounded-xl border border-white/10">
+    <div class="flex items-center gap-3 mb-3">
+      <h4 class="font-bold text-white">
+        Stakeholder Presentation Mode
+      </h4>
+    </div>
+    <p class="text-xs text-gray-400">
+      Auto-formats into government-ready presentation deck and investor summary with zero manual formatting required.
+    </p>
+  </div>
+
+</div>
+    </section>
+
+    <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-navyBlue text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © 2026 NSTED PATH | Designed By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+  </body>
+</html>

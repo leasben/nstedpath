@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Development | NSTEDPATH</title>
+    <script type="module" crossorigin src="/assets/main-BbuKIYGl.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-z1DdinFt.css">
+  </head>
+   <!-- BACK TO TOP -->
+   <button id="backToTop"><img src="images/top-arrow-icon.svg" alt="arrow" class="w-8 h-8 object-cover"></button>
+  <body>
+  <!-- NAV BAR -->
+  <section class="main-menu">
+    <nav class="navbar">
+    <div class="nav-section flex items-center justify-between w-[95%] mx-auto px-10">
+       <!-- LOGO -->
+       <div class="logo py-6">
+           <a href="/">
+               <img src="images/nstedpath_logo.png" alt="Logo" width="160" height="160">
+           </a>
+       </div>
+    
+       <!-- HAMBURGER BUTTON VISIBLE ONLY ON MOBILE -->
+       <btn class="hamburger hamburger--stand lg:hidden" type="button" id="hamburger_toggle">
+           <span class="hamburger-box">
+               <span class="hamburger-inner"></span>
+           </span>
+       </btn>
+    
+     <!-- MENU ITEMS (HIDDEN ON MOBILE, VISIBLE ON DESKTOP) -->
+    <div class="hidden lg:flex md:items-center ml-auto mr-10 uppercase font-poppins-light text-gold tracking-wide text-sm lg:text-base">
+      <ul class="flex space-x-11">
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <!-- MOBILE MENU (HIDDEN BY DEFAULT) -->
+   <div id="mobile_menu" class="w-full bg-white shadow-xl border-t border-navy text-navyBlue uppercase tracking-wide text-base font-medium py-6 hidden">
+    <ul class="flex flex-col items-center space-y-4">
+        <li class="menu-items hover:text-navyBlue"><a href="/">Home</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/about.html">About Us</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/networking.html">Networking</a></li> 
+        <li class="menu-items hover:text-navyBlue"><a href="/development.html">Development</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/promotion.html">Promotion</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/nstedpulse.html">The NSTEDPulse</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/astdn.html">ASTDN</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/resources.html">Resources</a></li>
+        <li class="menu-items hover:text-navyBlue"><a href="/contact.html">Contact</a></li>
+          </ul>
+      
+    </div>
+    </nav>
+    </section>
+
+<!-- WEBSITE DESIGN Banner -->
+<section class="webDesign-banner-section">
+    <div class="website-banner relative">
+      <picture>
+        <!-- Use the same image and adjust the height at different breakpoints -->
+        <img src="images/networking-banner.jpg" class="w-full sm:h-[300px] md:h-[400px] lg:h-[680px] object-cover" alt="about-banner">
+      </picture>
+      <!-- Darker Overlay Background -->
+      <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Darker overlay -->
+      <!-- Text Content -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-blue-900 text-center px-4">
+        <h1 class="text-white text-3xl md:text-5xl font-bold">Intelligence Layer That Powers Everything</h1>
+        <a href="#" class="w-full sm:w-auto bg-gold text-navyBlue hover:bg-white transition-all duration-300 font-semibold uppercase tracking-widest text-base px-8 py-4 my-6 shadow-lg shadow-gold/10">
+                get in touch
+            </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- DEVELOPMENT LAYER -->
+  <section class="bg-[#0D1B3E] text-white py-20 px-6 border-b-4 border-[#D4AF37]">
+    <div class="max-w-6xl mx-auto">
+      <span class="text-[#D4AF37] font-bold uppercase tracking-wider text-sm bg-white/10 px-6 py-3">
+        Intelligence Anchor & Its Streams
+      </span>
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-white mt-6">
+        BINDU AI - The <span class="text-gold">Intelligence Layer </span>That Powers Everything
+      </h2>
+       <h4 class="text-xl font-serif font-semibold text-gold tracking-wide mt-2">One Cognitive Network. Four Intelligence Streams. Three Engines Activated.</h4>
+      <p class="mt-6 text-lg text-white/60 font-sans leading-relaxed">
+        BINDU AI is the cognitive backbone of NSTEDPath — the intelligence layer that reads the market so the rest of the ecosystem knows where to move. Before NSTEDConnect activates demand, BINDU AI has already identified the audience.
+      </p>
+    </div>
+  </section>
+
+  
+  <!-- THE FOUR INTELLIGENCE STREAMS -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+
+    <div class="mb-16">
+        <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue">
+            The Four Core Intelligence Streams
+        </h2>
+
+        <p class="text-gray-600 mt-2 max-w-3xl leading-relaxed">
+            Before The NSTED Pulse scores a destination, BINDU AI has already ingested the market signals. It is not one of the engines — it is what makes the engines intelligent.
+        </p>
+    </div>
+
+    <!-- MAIN GRID -->
+    <div class="grid lg:grid-cols-2 gap-10 items-start">
+
+        <!-- LEFT IMAGE -->
+        <div class="relative overflow-hidden rounded-2xl h-full min-h-[500px] group">
+            
+            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+
+            <!-- overlay -->
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0D1B3E]/90 via-[#0D1B3E]/20 to-transparent"></div>
+
+            <!-- content -->
+            <div class="absolute bottom-0 left-0 p-8">
+                <p class="text-gold uppercase tracking-[0.3em] text-xs mb-3">
+                    Intelligence Infrastructure
+                </p>
+
+                <h3 class="text-white text-2xl md:text-3xl font-serif leading-tight">
+                    The Data Layer Behind Destination Growth
+                </h3>
+            </div>
+
+        </div>
+
+        <!-- RIGHT GRID -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Stream 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-[#0D1B3E]">
+                <div class="text-sm font-mono text-[#D4AF37] font-bold mb-2">BINDU</div>
+
+                <h3 class="text-lg font-bold text-[#0D1B3E] mb-3">
+                    Strategic Intelligence Brief
+                </h3>
+
+                <p class="text-xs text-gray-600 leading-relaxed">
+                    Maps PPP opportunities, matchmaking signals, and trade insights. Feeds audience targeting criteria straight into downstream campaigns.
+                </p>
+            </div>
+
+            <!-- Stream 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-[#D4AF37]">
+                <div class="text-sm font-mono text-[#0D1B3E] font-bold mb-2">EINDU</div>
+
+                <h3 class="text-lg font-bold text-[#0D1B3E] mb-3">
+                    Economic Intelligence Report
+                </h3>
+
+                <p class="text-xs text-gray-600 leading-relaxed">
+                    Tracks GDP throughput, macro destination economics, and investment readiness scores. Feeds benchmarking metrics into The NSTED Pulse.
+                </p>
+            </div>
+
+            <!-- Stream 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-[#0D1B3E]">
+                <div class="text-sm font-mono text-[#D4AF37] font-bold mb-2">MIRCU</div>
+
+                <h3 class="text-lg font-bold text-[#0D1B3E] mb-3">
+                    Market Intelligence Digest
+                </h3>
+
+                <p class="text-xs text-gray-600 leading-relaxed">
+                    Synthesizes visitor segmentation profiles, demand signals, and competitive landscapes to brief active destination marketing vectors.
+                </p>
+            </div>
+
+            <!-- Stream 4 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-[#D4AF37]">
+                <div class="text-sm font-mono text-[#0D1B3E] font-bold mb-2">AIRCU</div>
+
+                <h3 class="text-lg font-bold text-[#0D1B3E] mb-3">
+                    Aviation Intelligence Bulletin
+                </h3>
+
+                <p class="text-xs text-gray-600 leading-relaxed">
+                    Isolates route development models, airlift connectivity gaps, and alliance signals to feed connectivity to MICE gathering points.
+                </p>
+            </div>
+
+             <a href="#" class="w-28 sm:w-auto bg-navyBlue text-white hover:bg-gold text-center transition-all duration-300 font-semibold uppercase tracking-widest text-base py-4 my-6 shadow-lg shadow-gold/10">
+                get in touch
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- AI ANCHOR ECOSYSTEM -->
+ <section class="py-20 bg-gradient-to-b from-[#050B1A] to-[#081229] overflow-hidden">
+
+    <div class="max-w-6xl mx-auto px-6">
+
+        <!-- HEADER -->
+        <div class="max-w-4xl mb-20">
+            <span class="text-[#D4AF37] font-bold uppercase tracking-wider text-sm bg-white/10 px-6 py-3">
+                Intelligence Architecture
+            </span>
+
+            <h2 class="text-3xl md:text-5xl font-serif font-semibold text-white mt-4 leading-tight">
+                How BINDU AI Anchors the Ecosystem
+            </h2>
+
+            <p class="text-white/60 mt-6 max-w-3xl leading-relaxed">
+                BINDU AI powers the intelligence layer behind the NSTEDPath ecosystem — transforming live market signals into destination growth, audience demand, and strategic activation.
+            </p>
+        </div>
+
+        <!-- HORIZONTAL FLOW -->
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-6">
+
+            <!-- STEP -->
+            <div class="relative bg-[#0D1B3E]/60 border border-white/5 p-6 space-y-5 overflow-hidden">
+
+                <span class="text-gold text-5xl font-serif opacity-20 absolute top-4 right-4">
+                    01
+                </span>
+
+                <!-- ICON -->
+                <div class="w-14 h-14 border border-gold/30 flex items-center justify-center text-gold relative z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="12" cy="12" r="8"/>
+                    </svg>
+                </div>
+
+                <div class="space-y-4 relative z-10">
+                    <h3 class="text-white text-xl font-serif leading-snug">
+                        BINDU AI reads the market
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        Ingests real-world signals: economic data, visitor flows, aviation routes, competitive intelligence, and demand patterns across all five continents.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- STEP -->
+            <div class="relative bg-[#0D1B3E]/60 border border-white/5 p-6 space-y-5 overflow-hidden">
+
+                <span class="text-gold text-5xl font-serif opacity-20 absolute top-4 right-4">
+                    02
+                </span>
+
+                <div class="w-14 h-14 border border-gold/30 flex items-center justify-center text-gold relative z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M4 12h16"/>
+                    </svg>
+                </div>
+
+                <div class="space-y-4 relative z-10">
+                    <h3 class="text-white text-xl font-serif leading-snug">
+                        The NSTED Pulse scores the destination
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        BINDU AI's intelligence feeds the 8-Pillar scoring engine, turning raw market data into a live Vitality Rating and 36-month roadmap.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- STEP -->
+            <div class="relative bg-[#0D1B3E]/60 border border-white/5 p-6 space-y-5 overflow-hidden">
+
+                <span class="text-gold text-5xl font-serif opacity-20 absolute top-4 right-4">
+                    03
+                </span>
+
+                <div class="w-14 h-14 border border-gold/30 flex items-center justify-center text-gold relative z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="5" y="5" width="14" height="14"/>
+                    </svg>
+                </div>
+
+                <div class="space-y-4 relative z-10">
+                    <h3 class="text-white text-xl font-serif leading-snug">
+                        MICE Checkpoint convenes the right room
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        BINDU AI's matchmaking intelligence identifies which decision-makers, investors, and trade buyers need to be in the room — and why.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- STEP -->
+            <div class="relative bg-[#0D1B3E]/60 border border-white/5 p-6 space-y-5 overflow-hidden">
+
+                <span class="text-gold text-5xl font-serif opacity-20 absolute top-4 right-4">
+                    04
+                </span>
+
+                <div class="w-14 h-14 border border-gold/30 flex items-center justify-center text-gold relative z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </div>
+
+                <div class="space-y-4 relative z-10">
+                    <h3 class="text-white text-xl font-serif leading-snug">
+                        NSTEDConnect activates demand
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        BINDU AI's audience and market intelligence briefs NSTEDConnect's three landing gears, ensuring every campaign targets the right audience with the right message.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- STEP -->
+            <div class="relative bg-gradient-to-br from-gold to-[#b89224] p-6 overflow-hidden">
+
+                <span class="text-navyBlue text-5xl font-serif opacity-20 absolute top-4 right-4">
+                    05
+                </span>
+
+                <div class="space-y-6 relative z-10">
+
+                    <div class="w-14 h-14 border border-navyBlue/20 flex items-center justify-center text-navyBlue">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 12h16"/>
+                        </svg>
+                    </div>
+
+                    <h3 class="text-navyBlue text-xl font-serif leading-snug">
+                        The market moves
+                    </h3>
+
+                    <p class="text-navyBlue/80 text-sm leading-relaxed">
+                        Intelligence becomes demand. Demand becomes growth. Growth generates new market signals — and BINDU AI starts again.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- HOW BINDU AI WORKS -->
+  <section class="py-20 fivePillars overflow-hidden">
+
+    <div class="max-w-6xl mx-auto px-6">
+
+        <!-- HEADER -->
+        <div class="max-w-4xl mb-16">
+            <span class="text-[#D4AF37] font-bold uppercase tracking-wider text-sm bg-white/10 px-6 py-3">
+                Intelligence Anchor
+            </span>
+            <h2 class="text-3xl md:text-5xl font-serif font-semibold text-white mt-4 leading-tight">
+                How BINDU AI Works
+            </h2>
+            <p class="text-gold/80 italic mt-4 text-lg">
+                Ingest. Process. Distribute. Network.
+            </p>
+            <p class="text-white/60 mt-6 leading-relaxed">
+                BINDU AI operates as a four-stage intelligence engine — continuously ingesting raw data from field research, partner feeds, event intelligence, and subscription pipelines.
+            </p>
+
+        </div>
+
+        <!-- MAIN GRID -->
+        <div class="grid lg:grid-cols-2 gap-10 items-stretch">
+
+            <!-- IMAGE SIDE -->
+            <div class="relative overflow-hidden min-h-[620px] group">
+
+                <img 
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                    class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
+
+                <!-- overlays -->
+                <div class="absolute inset-0 bg-gradient-to-t from-[#050B1A] via-[#0D1B3E]/70 to-transparent"></div>
+
+                <!-- content -->
+                <div class="absolute bottom-0 left-0 p-10 max-w-lg">
+
+                    <span class="text-gold uppercase tracking-[0.3em] text-xs block mb-4">
+                        Sovereign Intelligence Layer
+                    </span>
+
+                    <h3 class="text-white text-3xl font-serif leading-tight mb-5">
+                        Turning Global Signals Into Destination Growth
+                    </h3>
+
+                    <p class="text-white/70 text-sm leading-relaxed">
+                        BINDU AI connects tourism intelligence, aviation data, market demand, and investment strategy into one integrated ecosystem powering the entire NSTEDPath network.
+                    </p>
+
+                </div>
+
+                <!-- accent -->
+                <div class="absolute bottom-0 left-0 w-28 h-28 border-l-2 border-b-2 border-gold"></div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="grid sm:grid-cols-2 gap-6">
+
+                <!-- ITEM -->
+                <div class="bg-[#0D1B3E]/60 border border-white/5 p-7 flex flex-col">
+
+                    <div class="flex items-center justify-between mb-6">
+
+                        <div class="w-12 h-12 border border-gold/30 flex items-center justify-center text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="8"/>
+                            </svg>
+                        </div>
+
+                        <span class="text-gold text-4xl font-serif opacity-20">
+                            01
+                        </span>
+
+                    </div>
+
+                    <h3 class="text-white text-2xl font-serif mb-4">
+                        INGEST
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        Data flows in from all four gear pipelines: field research, government data, partner feeds, event intelligence, subscription data, and THE NSTED PULSE scoring engine.
+                    </p>
+
+                </div>
+
+                <!-- ITEM -->
+                <div class="bg-[#0D1B3E]/60 border border-white/5 p-7 flex flex-col">
+
+                    <div class="flex items-center justify-between mb-6">
+
+                        <div class="w-12 h-12 border border-gold/30 flex items-center justify-center text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 12h16"/>
+                            </svg>
+                        </div>
+
+                        <span class="text-gold text-4xl font-serif opacity-20">
+                            02
+                        </span>
+
+                    </div>
+
+                    <h3 class="text-white text-2xl font-serif mb-4">
+                        PROCESS
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        AI synthesises raw data into four specialist intelligence products published on monthly and quarterly cadences.
+                    </p>
+
+                </div>
+
+                <!-- ITEM -->
+                <div class="bg-[#0D1B3E]/60 border border-white/5 p-7 flex flex-col">
+
+                    <div class="flex items-center justify-between mb-6">
+
+                        <div class="w-12 h-12 border border-gold/30 flex items-center justify-center text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="5" y="5" width="14" height="14"/>
+                            </svg>
+                        </div>
+
+                        <span class="text-gold text-4xl font-serif opacity-20">
+                            03
+                        </span>
+
+                    </div>
+
+                    <h3 class="text-white text-2xl font-serif mb-4">
+                        DISTRIBUTE
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        Reports are distributed continent by continent — tailored to regional investment climate and destination priorities.
+                    </p>
+
+                </div>
+
+                <!-- ITEM -->
+                <div class="bg-gradient-to-br from-[#0D1B3E] to-[#13285c] border border-gold/10 p-7 flex flex-col">
+
+                    <div class="flex items-center justify-between mb-6">
+
+                        <div class="w-12 h-12 border border-gold/30 flex items-center justify-center text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 6h16M4 12h16M4 18h16"/>
+                            </svg>
+                        </div>
+
+                        <span class="text-gold text-4xl font-serif opacity-20">
+                            04
+                        </span>
+
+                    </div>
+
+                    <h3 class="text-white text-2xl font-serif mb-4">
+                        NETWORK
+                    </h3>
+
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        Subscribers connect to mandates, events, and partnership opportunities generated by the intelligence ecosystem.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BOTTOM STATEMENT -->
+        <div class="mt-16 border-t border-gold/10 pt-10">
+
+            <p class="text-xl md:text-2xl font-serif text-white leading-relaxed max-w-5xl">
+                BINDU AI is the only intelligence layer in the world purpose-built to anchor destination marketing, destination scoring, MICE convening, and demand generation —
+                <span class="text-gold italic">
+                    simultaneously, in one sovereign network.
+                </span>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+ 
+  <!-- INTRA-INDUSTRY TRADE EXCHANGE -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="mb-16">
+      <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight leading-tight text-navyBlue">The Integrated Tourism Trade Operating System</h2>
+      <p class="text-gray-600 mt-2 text-sm">
+       NSTEDPath is the world's first integrated tourism trade operating system — where destinations are scored, packaged, marketed, activated, and traded in a single, self-reinforcing ecosystem.NSTEDPath is the world's first integrated tourism trade operating system — where destinations are scored, packaged, marketed, activated, and traded in a single, self-reinforcing ecosystem.NSTEDPath is the world's first integrated tourism trade operating system — where destinations are scored, packaged, marketed, activated, and traded in a single, self-reinforcing ecosystem.
+      </p>
+    </div>
+
+    <!-- Operating Vectors Mini Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto text-left">
+      <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+        <span class="block font-bold text-navyBlue text-base">Airlines</span>
+        <span class="text-sm text-black block mt-1">Route development opportunities, airlift partnerships, and destination connectivity deals activated through BINDU AI intelligence and MICE Checkpoint events.</span>
+      </div>
+      <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+        <span class="block font-bold text-gold text-base">Hotels</span>
+        <span class="text-sm text-black block mt-1">Investment-ready destination packages, mixed-use development intelligence, and sovereign wealth fund connections through THE NSTED PULSE.</span>
+      </div>
+      <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+        <span class="block font-bold text-navyBlue text-base">Travel Agents & Tour Operators</span>
+        <span class="text-sm text-black block mt-1">Curated, bookable destination products built by DDSN and amplified by NSTEDConnect's global trade distribution network.</span>
+      </div>
+      <div class="p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+        <span class="block font-bold text-gold text-base">Trade Missions & Governments</span>
+        <span class="text-sm text-black block mt-1">Government-to-government connection points, PPP opportunities, and policy intelligence distributed through BINDU AI's Strategic Intelligence Brief.</span>
+      </div>
+    </div>
+
+    <!-- Final Section CTA Call -->
+    <div class="mt-20 bg-[#0D1B3E] text-white p-12 rounded-2xl max-w-4xl mx-auto border-b-8 border-[#D4AF37]">
+      <h3 class="text-2xl font-extrabold text-[#D4AF37]">Ready to Develop Your Destination?</h3>
+      <p class="text-gray-300 text-sm mt-2 max-w-2xl mx-auto">
+        Deploy data-led infrastructure to transform underlying destination metrics into bankable economic growth landscapes.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+        <a href="http://www.binduai.com" target="_blank" class="bg-[#D4AF37] text-[#0D1B3E] px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition">
+          Book a Consultation via binduai.com
+        </a>
+        <button class="border border-white/20 hover:bg-white/5 text-white px-6 py-3 rounded-lg font-bold transition">
+          Explore Architecture Services
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- COPYRIGHT FOOTER -->
+<section class="bottom-footer bg-navyBlue text-white h-[50px] flex justify-center items-center">
+  <div class="bottom-text">
+    © 2026 NSTED PATH | Designed By <a href="https://elntech.co.za" target="_blank" class="hover:underline">ELNTECH</a>
+        
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous">
+</script>
+  </body>
+</html>
